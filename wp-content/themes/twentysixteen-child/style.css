@@ -43,6 +43,13 @@ body{
 .entry-header{
     display: none;
 }
+
+.main-navagtion{
+    height: 75px;
+    width:  50px;
+    
+}
+
 #menu-item-44:hover{
     background-color: #f9da0c;
 }
@@ -67,7 +74,7 @@ body{
     background-color: #f9da0c;
 }
 
-#menu-item-38:hover{
+#menu-item-38{
     background-color: #f9da0c;
 }
 

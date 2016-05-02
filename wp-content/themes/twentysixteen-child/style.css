@@ -13,11 +13,27 @@
 */
 
 
+    
 body{
-    background-color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    /*background-color: #7a1501;*/
 }
 
-#masthead
+#page{
+    background-color: #7a1501;
+    
+}
+
+#masthead{
+    margin:0 auto;
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: #fff;
+}
 
 #site-header-menu{
     text-transform: capitalize;
@@ -27,3 +43,37 @@ body{
 .entry-header{
     display: none;
 }
+#menu-item-44:hover{
+    background-color: #f9da0c;
+}
+
+#menu-item-43:hover{
+    background-color: #f9da0c;
+}
+
+#menu-item-42:hover{
+    background-color: #f9da0c;
+}
+
+#menu-item-41:hover{
+    background-color: #f9da0c;
+}
+
+#menu-item-40:hover{
+    background-color: #f9da0c;
+}
+
+#menu-item-39:hover{
+    background-color: #f9da0c;
+}
+
+#menu-item-38:hover{
+    background-color: #f9da0c;
+}
+
+#post-4{
+    width: 100%;
+    height: auto;
+    
+}
+

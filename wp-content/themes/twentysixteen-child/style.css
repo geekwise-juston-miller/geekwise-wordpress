@@ -12,8 +12,6 @@
  Text Domain:  twenty-sixteen-child
 */
 
-
-    
 body{
     margin: 0 auto;
     padding: 0;
@@ -22,33 +20,31 @@ body{
     /*background-color: #7a1501;*/
 }
 
-#page{
-    background-color: #7a1501;
+.main-navigation{
+    text-transform: capitalize;
+    margin:0 auto;
+    padding: 0;
+    height: auto;
+    width:  100%;
+    font-size:.9rem;
+    transform:translateX(-60%);
+    left: -50%;
     
 }
 
 #masthead{
     margin:0 auto;
-    display: block;
+    padding:0;
     height: auto;
     width: auto;
     background-color: #fff;
 }
 
-#site-header-menu{
-    text-transform: capitalize;
-    margin:0 auto;
-}
 
 .entry-header{
     display: none;
 }
 
-.main-navagtion{
-    height: 75px;
-    width:  50px;
-    
-}
 
 #menu-item-44:hover{
     background-color: #f9da0c;
@@ -84,3 +80,10 @@ body{
     
 }
 
+.icon{
+    margin:0 auto;
+    padding:0;
+    height:auto;
+    float:left;
+    
+}

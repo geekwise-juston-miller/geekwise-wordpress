@@ -14,60 +14,69 @@
 
 
 .main-navigation{
-    text-transform: capitalize;
-    font-size:.9rem;
+    text-transform: uppercase;
+    font-size:1rem;
     background-color: #fff;
+    margin: 0 300px 0 0;
+    padding: 10px;
+
+}
+
+#menu-navigation li a{
+    line-height: 30px;
     
     
 }
 
-/*#masthead{*/
-/*    margin:0 auto;*/
-/*    padding:0;*/
-/*    background-color: #fff;*/
-/*}*/
+#menu-navigation li:hover{
+    background-color: #f9da0c;
+    
+
+}
+
+#masthead{
+    padding:0;
+    background-color: #fff;
+}
 
 
 .entry-header{
     display: none;
 }
 
-
-#menu-item-44:hover{
-    background-color: #f9da0c;
-    color:#f9da0c;
-}
-
-#menu-item-43:hover{
-    background-color: #f9da0c;
-    color:#f9da0c;
-}
-
-#menu-item-42:hover{
-    background-color: #f9da0c;
-    color:#f9da0c;
-}
-
-#menu-item-41:hover{
-    background-color: #f9da0c;
-    color:#f9da0c;
-}
-
-#menu-item-40:hover{
-    background-color: #f9da0c;
-    color:#f9da0c;
-}
-
-#menu-item-39:hover{
-    background-color: #f9da0c;
-    color:#f9da0c;
-}
+/* nav buttons  */
+/*#menu-item-44*/
+/*#menu-item-43*/
+/*#menu-item-42*/
+/*#menu-item-41*/
+/*#menu-item-40*/
+/*#menu-item-39*/
 
 #menu-item-38{
     background-color: #f9da0c;
-    color:#f9da0c;
+    font-size: .8rem;
 }
 
+h2{
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+}
+
+hr{
+    background-color: #fff;
+}
 .site-title{
     display:none;
+}
+
+.content-column.one_third p a{
+    color: #fff;
+}
+
+.content-column:nth-of-type(even){
+    border-right: solid #fff 1px;
+    border-left: solid #fff 1px;
 }

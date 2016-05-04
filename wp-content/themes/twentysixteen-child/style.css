@@ -12,33 +12,20 @@
  Text Domain:  twenty-sixteen-child
 */
 
-body{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    /*background-color: #7a1501;*/
-}
 
 .main-navigation{
     text-transform: capitalize;
-    margin:0 auto;
-    padding: 0;
-    height: auto;
-    width:  100%;
     font-size:.9rem;
-    transform:translateX(-60%);
-    left: -50%;
+    background-color: #fff;
+    
     
 }
 
-#masthead{
-    margin:0 auto;
-    padding:0;
-    height: auto;
-    width: auto;
-    background-color: #fff;
-}
+/*#masthead{*/
+/*    margin:0 auto;*/
+/*    padding:0;*/
+/*    background-color: #fff;*/
+/*}*/
 
 
 .entry-header{
@@ -48,42 +35,39 @@ body{
 
 #menu-item-44:hover{
     background-color: #f9da0c;
+    color:#f9da0c;
 }
 
 #menu-item-43:hover{
     background-color: #f9da0c;
+    color:#f9da0c;
 }
 
 #menu-item-42:hover{
     background-color: #f9da0c;
+    color:#f9da0c;
 }
 
 #menu-item-41:hover{
     background-color: #f9da0c;
+    color:#f9da0c;
 }
 
 #menu-item-40:hover{
     background-color: #f9da0c;
+    color:#f9da0c;
 }
 
 #menu-item-39:hover{
     background-color: #f9da0c;
+    color:#f9da0c;
 }
 
 #menu-item-38{
     background-color: #f9da0c;
+    color:#f9da0c;
 }
 
-#post-4{
-    width: 100%;
-    height: auto;
-    
-}
-
-.icon{
-    margin:0 auto;
-    padding:0;
-    height:auto;
-    float:left;
-    
+.site-title{
+    display:none;
 }

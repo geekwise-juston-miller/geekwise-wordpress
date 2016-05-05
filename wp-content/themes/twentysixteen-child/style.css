@@ -23,7 +23,7 @@
 }
 
 #menu-navigation li a{
-    line-height: 30px;
+    line-height: 35px;
     
     
 }
@@ -79,4 +79,12 @@ hr{
 .content-column:nth-of-type(even){
     border-right: solid #fff 1px;
     border-left: solid #fff 1px;
+}
+
+.block-title{
+    color: #fff;
+}
+
+block-content{
+    color: #fff;
 }

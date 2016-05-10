@@ -12,37 +12,46 @@
  Text Domain:  twenty-sixteen-child
 */
 
-
-.main-navigation{
-    text-transform: uppercase;
-    font-size:1rem;
-    background-color: #fff;
-    margin: 0 300px 0 0;
-    padding: 10px;
-
-}
-
-#menu-navigation li a{
-    line-height: 35px;
-    
-    
-}
-
-#menu-navigation li:hover{
-    background-color: #f9da0c;
-    
-
-}
-
 #masthead{
-    padding:0;
-    background-color: #fff;
+    border: solid 2px black;
+}
+
+.site-header-main.block-content:about{
+    border: solid 2px yellow;
 }
 
 
-.entry-header{
-    display: none;
-}
+
+/*.main-navigation{*/
+/*    text-transform: uppercase;*/
+/*    font-size:1rem;*/
+/*    background-color: #fff;*/
+/*    margin: 0 300px 0 0;*/
+/*    padding: 10px;*/
+
+/*}*/
+
+/*#menu-navigation li a{*/
+/*    line-height: 35px;*/
+    
+    
+/*}*/
+
+/*#menu-navigation li:hover{*/
+/*    background-color: #f9da0c;*/
+    
+
+/*}*/
+
+/*#masthead{*/
+/*    padding:0;*/
+/*    background-color: #fff;*/
+/*}*/
+
+
+/*.entry-header{*/
+/*    display: none;*/
+/*}*/
 
 /* nav buttons  */
 /*#menu-item-44*/
@@ -52,40 +61,40 @@
 /*#menu-item-40*/
 /*#menu-item-39*/
 
-#menu-item-38{
-    background-color: #f9da0c;
-    font-size: .8rem;
-    line-height: 35px;
-}
+/*#menu-item-38{*/
+/*    background-color: #f9da0c;*/
+/*    font-size: .8rem;*/
+/*    line-height: 35px;*/
+/*}*/
 
-h2{
-    color: #fff;
-}
+/*h2{*/
+/*    color: #fff;*/
+/*}*/
 
-h3{
-    color: #fff;
-}
+/*h3{*/
+/*    color: #fff;*/
+/*}*/
 
-hr{
-    background-color: #fff;
-}
-.site-title{
-    display:none;
-}
+/*hr{*/
+/*    background-color: #fff;*/
+/*}*/
+/*.site-title{*/
+/*    display:none;*/
+/*}*/
 
-.content-column.one_third p a{
-    color: #fff;
-}
+/*.content-column.one_third p a{*/
+/*    color: #fff;*/
+/*}*/
 
-.content-column:nth-of-type(even){
-    border-right: solid #fff 1px;
-    border-left: solid #fff 1px;
-}
+/*.content-column:nth-of-type(even){*/
+/*    border-right: solid #fff 1px;*/
+/*    border-left: solid #fff 1px;*/
+/*}*/
 
-.block-title{
-    color: #fff;
-}
+/*.block-title{*/
+/*    color: #fff;*/
+/*}*/
 
-block-content{
-    color: #fff;
-}
+/*block-content{*/
+/*    color: #fff;*/
+/*}*/

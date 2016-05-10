@@ -122,6 +122,9 @@ function html5blank_styles()
     wp_enqueue_style('html5blank'); // Enqueue it!
 }
 
+    wp_register_style('about', get_template_directory_uri() . '/about.css', array(), '1.0', 'all');
+    wp_enqueue_style('about'); // Enqueue it!
+
 // Register HTML5 Blank Navigation
 function register_html5_menu()
 {

@@ -73,12 +73,97 @@ input:focus {
     STRUCTURE
 \*------------------------------------*/
 
-/* wrapper */
-.wrapper {
-	max-width:1280px;
-	width:95%;
-	margin:0 auto;
-	position:relative;
+
+.header1{
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 8rem;
+    background-color: #fff;
+    text-align: center;
+    
+
+}
+
+.nav1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
+
+}
+
+.list1{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: 12rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    align-content:center;
+    justify-content: center;
+    
+}
+
+.list-item{
+    margin: 0;
+    padding: 0;
+    width: 7.4rem;
+    height: 6.4rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.list-item > a{
+    text-decoration: none;
+    color: #000;
+    
+
+}
+
+.list-item:nth-of-type(3){
+    height: 6.5rem;
+    width: 8.5rem;
+}
+
+/* sign up nav box*/
+
+.list-item:nth-of-type(5){
+    background-color: #f9da0c;
+    width: 6.5rem;
+    
+}
+
+.list-item:nth-of-type(5) > a{
+    color: #7a1501;
+    font-weight: 500;
+}
+
+/* mouse over link */
+
+.list-item:hover{
+    background-color: #f9da0c;
+
+}
+
+/* selected link */
+
+.list-item:active{
+    background-color: #f9da0c;
 }
 
 #custom_page{
@@ -125,7 +210,7 @@ main{
     margin: 0 auto;
     padding-top: 2.5rem;
     width: 100%;
-    height: 375px;
+    height: 160px;
     background-color: #7a1501;
     color: #ffffff;
 }
@@ -157,7 +242,7 @@ h3{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 345px;
+    height: 200px;
     display: block;
     background-color: #7a1501;
     
@@ -196,6 +281,90 @@ h3{
     color: #ffffff;
     
 }
+
+@media only screen and (min-width:785px){
+    #fafa{
+        display: none;
+    }
+    
+    input{
+        display: none;
+}
+}
+
+@media only screen and (max-width:785px){
+    
+.header1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #fff
+
+}
+    
+    .nav1{
+        display: none;
+    }
+    
+    .label_wrap{
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
+        
+    }
+    
+    label{
+        display: block;
+        margin: 1rem 1.5rem 0 auto;
+        padding: 0;
+        width: auto;
+        height: 3.1rem;
+        cursor: pointer;
+        visibility: visible;
+        color: #888888;
+        border: solid .1rem;
+        border-radius: .4rem;
+        opacity: .7;
+
+    }
+    
+    #toggle-1{
+       display: none;
+    
+}
+    
+    #toggle-1:checked~nav{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+        
+    }
+    
+    .list1{
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+
+
+}
+
 
 /*------------------------------------*\
     PAGES

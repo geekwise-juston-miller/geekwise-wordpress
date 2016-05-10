@@ -1,8 +1,10 @@
 <?php /* Template Name: Home */ ?>
 
+<?php get_header(); ?>
+
 <body id="custom_page">
     
-    <main class='center_pag'>
+    <main class='center_page'>
             <div id="mid_logo">
                     <a href="index.html">
                         <img id="geekwise_img"  src="http://i.imgur.com/a4I7opQ.jpg" alt="">
@@ -17,7 +19,7 @@
                     
             </div>
     </main>
-    <div id='contaner_for_bottomlogos' class="center">
+    <div id='contaner_for_bottomlogos' class="center_page">
               
                <div id="divider"></div>
                

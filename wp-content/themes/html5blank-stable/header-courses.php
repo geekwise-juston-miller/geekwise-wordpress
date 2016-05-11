@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
-    <link href="<?php echo get_template_directory_uri(); ?>/courses.css" rel="stylesheet">
-    <title>Geekwise Academy | Courses</title>
+        
+        <title>Geekwise Academy - We teach technology skills that you can use to make money</title>
+        
+        <meta charset="utf-8"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
+        
+        
+        
+        <link href='https://fonts.googleapis.com/css?family=Khula:800,400' rel='stylesheet' type='text/css'>
+        
+        <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'/>
+        
+        <link href="<?php echo get_template_directory_uri(); ?>/courses.css" rel="stylesheet">
+        
 </head>
+
+    <body <?php body_class('courses'); ?>>
        
 <!-- copied signup link and nav bar from workshops page -->
        

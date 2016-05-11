@@ -1,6 +1,7 @@
- <?php /* Template Name: courses */ ?>
+<?php /* Template Name: courses */ ?>
+
 <?php get_header('courses'); ?>
-      <body>
+
       
         <div id="workshops_fluff" class="courses_fluff">
             <p>

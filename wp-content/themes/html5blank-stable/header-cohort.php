@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
-   <link href="<?php echo get_template_directory_uri(); ?>/cohort.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/cohort.css" rel="stylesheet">
     <title>Geekwise Academy | Cohort</title>
 </head>
 <body class="team_body">
-
        
        <!-- this div and header section copied from team page -->
        
         <div id="margin_top">
-            <a class="signup_link team_signup"  id="cohort_signup_link" href="signup.html">
+            <a class="signup_link team_signup"  id="cohort_signup_link" href="/index.php?page_id=16">
                 <span>
                     sign up
                 </span>
@@ -24,7 +23,7 @@
             <ul>
                <div class="icon_div">
                 <li id="icon">
-                    <a href="index.html">
+                    <a href="/index.php?p=4">
                         <img src="http://i.imgur.com/sCkxjbZ.png" id="icon_image">
                     </a>
                 </li>
@@ -41,49 +40,49 @@
                
                <div class="nav_div team_nav_div">
                 <li class="about">
-                    <a href="about.html">
+                     <a href="/index.php?page_id=18">
                         <span>
                             about
                         </span>
                     </a>
                 </li>
                 <li class="courses">
-                    <a href="courses.html">
+                    <a href="/index.php?page_id=6">
                         <span>
                             courses
                         </span>
                     </a>
                 </li>
                 <li class="workshops">
-                    <a href="workshops.html">
+                    <a href="/index.php?page_id=8">
                         <span>
                             workshops
                         </span>
                     </a>
                 </li>
                 <li class="cohort">
-                    <a class="active" href="cohort.html">
+                    <a class="active" href="/index.php?page_id=10">
                         <span>
                             cohort
                         </span>
                     </a>
                 </li>
                 <li class="team">
-                    <a href="team.html">
+                    <a href="/index.php?page_id=12">
                         <span>
                             team
                         </span>
                     </a>
                 </li>
                 <li class="contact">
-                    <a href="contact.html">
+                    <a href="/index.php?page_id=14">
                         <span>
                             contact
                         </span>
                     </a>
                 </li>
                 <li class="added_signup">
-                    <a href="signup.html">
+                    <a href="/index.php?page_id=16">
                         <span>
                             sign up
                         </span>

@@ -1,650 +1,280 @@
-/*
-	Theme Name: HTML5 Blank
-	Theme URI: http://html5blank.com
-	Description: HTML5 Blank WordPress Theme
-	Version: 1.4.3
-	Author: Todd Motto (@toddmotto)
-	Author URI: http://toddmotto.com
-	Tags: Blank, HTML5, CSS3
-	License: MIT
-	License URI: http://opensource.org/licenses/mit-license.php
-*/
+/* begin cohort page */
 
-/*------------------------------------*\
-    MAIN
-\*------------------------------------*/
-
-/* global box-sizing */
-*,
-*:after,
-*:before {
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}
-/* html element 62.5% font-size for REM use */
-html {
-	font-size:62.5%;
-}
-body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#444;
-}
-/* clear */
-.clear:before,
-.clear:after {
-    content:' ';
-    display:table;
-}
-
-.clear:after {
-    clear:both;
-}
-.clear {
-    *zoom:1;
-}
-img {
-	max-width:100%;
-	vertical-align:bottom;
-}
-a {
-	color:#444;
-	text-decoration:none;
-}
-a:hover {
-	color:#444;
-}
-a:focus {
-	outline:0;
-}
-a:hover,
-a:active {
-	outline:0;
-}
-input:focus {
-	outline:0;
-	border:1px solid #04A4CC;
-}
-
-/*------------------------------------*\
-    STRUCTURE
-\*------------------------------------*/
-
-html, body{
-    margin:0;
-    padding:0;
-    font-size:62.5%;
-    width:100%;
-    height:100%;
-    background-color:#7a1501;
-}
-
-body{
-    width:100%;
-    height: 100%;
-    text-align: center;
-    background-color:#7a1501;
-    font-family: sans-serif;
-}
-
-ul{
-    display: inline-block;
-    margin:0 auto;
-    list-style: none;
-    padding:0;
-}
-
-a{
-    display: inline-block;
-    text-decoration: none;
-}
-
-#index_label{
-    background-color:white;
-}
-
-header{
-    margin:0;
-    padding:0;
-    width:100%;
-    height: 5rem;
-    background-color:white;
-}
-
-header nav{
-    height: 100%;
-    width:100%;
-    margin:0 auto;
-    display:block;
-}
-
-/*  bars is input id */
-
-#bars{
-    display: none;
-}
-input{
-    display: none;
-}
-
-header nav ul{
-    width:55rem;
-    height:100%;
-}
-
-header nav ul li{
-    font-size: 1.3rem;
-    display:inline-block;
-    height:100%;
-    margin:0;
-    padding:0;
-    font-weight: 600;
-}
-
-header nav ul li:hover{
-    background-color:#F9DA0C;
-}
-
-header nav ul li:nth-child(1){
-    width:12%;
-}
-header nav ul li:nth-child(2){
-    width:14%;
-}
-header nav ul li:nth-child(3){
-    width:18%;
-}
-header nav ul li:nth-child(4){
-    width:13%;
-}
-
-/* sign up link needed to be added */
-
-header nav ul li:nth-child(5){
-    width:11%;
-    background-color:#F9DA0C;
-    font-size:1.2rem;
-}
-
-header nav ul li:nth-child(6){
-    width:10%;
-}
-
-header nav ul li:nth-child(7){
-    width:14%;
-}
-
-header nav ul li a{
-    color:black;
-    text-transform: uppercase;
-    height: 100%;
-    width:100%;
-}
-
-header nav ul li a span{
-    position: relative;
-    top:1.3rem;
-}
-
-#yellow{
-    color:#7A1501;
-    font-weight: 600;
-    font-size:1.3rem;
-}
-
-#navbar_hidden{
-    display: none;
-}
-
-/* start main section */
-
-main{
-    margin:0;
-    padding:0;
-    width:auto;
+.cohort_main div{
     height: auto;
-    background-color:white;
 }
 
-main img{
-    width:auto;
-    margin-bottom: 5px;
-}
-
-/* end of main section */
-
-/* start footer section */
-
-footer{
-    background-color:#7A1501;
-    display: block;
-    margin:0 auto;
-    text-align: center;
-    color:white;
-    height:auto;
-    padding-bottom: 5rem;
-}
-
-.fluff{
-    width:70%;
+.cohort_position{
     display:inline-block;
-    font-size:3rem;
+    text-align:center;
+    font-family: franchise;
+    font-size:3.2rem;
 }
-
-@font-face {
-    font-family: 'franchise';
-    src: url('../fonts/franchise-bold-webfont.woff');
+.capital_letters{
+    font-size:3.8rem;
 }
-
-#h3_1{
-    text-transform: uppercase;
-    margin:0;
-    padding:0;
-    font-family:'franchise';
-    padding-top:3rem
-}
-
-@font-face {
-    font-family: 'ciria';
-    src: url('../fonts/ciria-bold.woff');
-}
-
-#h3_2{
-    margin:0;
-    padding:0;
-    font-family: 'ciria';
-}
-
-#divider{
-    width:60%;
+#cohort_content{
     display: inline-block;
+    width:90rem;
+    height: auto;
 }
-
-.links{
-    display: inline-block;
-    width:70%;
-    height:auto;
+.content{
+    text-transform:none; 
+    font-size:1.7rem;
+    text-align: left;
+    line-height:2.5rem;
+    width:98%;
+    display:inline-block;
+    margin-bottom:1rem;
 }
-
-/* this part targets the three icons images at the bottom */
-
-.links p:nth-child(1){
-    width:calc(99%/3);
-    float: left;
-    border-right: 1px solid white;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-.links p:nth-child(2){
-    width:calc(99%/3);
-    float: left;
-    border-right: 1px solid white;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-.links p:nth-child(3){
-    width:calc(99%/3);
-    float: right;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-
-.link_images{
-    display: block;
+#content_ol{
     margin:0;
+    padding:1rem 0 1rem 0;
+    width:90%;
 }
-
-.link_images a{
-    width:auto;
-    color:white;
-}
-
-/* end of: this part targets the three icons images at the bottom */
-
-.link_images span{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    margin:0;
-    padding:0;
+.cohort_footer{
     display: inline-block;
-    height:1.5rem;
     width:100%;
+    height:auto;
+    background-color:#7A1501;
+}
+.cohort_div{
+    width:100rem;
+    height:auto;
+    display: inline-block;
+    margin:0 auto;
+    font-size:1.7rem;
 }
 
-/* start of media query, display nav bar as blocks and not inline */
-
-@media only screen and (max-width:767px){
-    
-    
-header{
-    height: 30rem;
+.cohort_label{
+    display:inline-block;
+    width:100rem;
+    height:5rem;
+    font-size:2rem;
+    text-align: left;
+    background-color:#F9DA0C
+}
+.cohort_label span{
+    position:relative;
+    top:1rem;
+    left:1rem;
+}
+#this_year_cohorts{
     display: none;
 }
-    
-    /* added label and input to create a menu icon making user friendly.  dropdown should appear when input checkbox (displayed as none) is checked */
-    
-    label{
-        display: block;
-        height: 12%;
-    }
-    
-    #bars{
-        display: inline-block;
-        width:6%;
-        float: right;
-        border:1px solid lightgrey;
-        opacity:.3;
-        margin:1.4rem 1.4rem 0 0;
-        border-radius:5px;
-    }
-    label > img:hover{
-        background-color:grey;
-    }
-    
-    input:checked + header{
-        display:block;
-    }
-    
-    /* made width to ul 100% so that each list item (menu item) will display as one on top of the other */
-    
-header nav ul{
-    width:100%;
+#cohort_input{
+    display:none;
 }
 
-header nav ul li{
-    display:inline-block; 
-    height:calc(100%/7);
+#cohort_input:checked + #this_year_cohorts{
+    display:block;
+}
+ /* second label and input*/
+
+
+
+.cohort_label2{
+    display:inline-block;
+    width:100rem;
+    height:5rem;
+    font-size:2rem;
+    text-align: left;
+    background-color:#F9DA0C;
+    margin-top:2rem;
+}
+.cohort_label2 span{
+    position:relative;
+    top:1rem;
+    left:1rem;
+}
+#this_year_cohorts2{
+    display: none;
+}
+#cohort_input2{
+    display:none;
 }
 
-header nav ul li:nth-child(1){
-    width:100%;
-    height:4rem;
-    border-top:1px solid lightgrey;
-    
-}
-header nav ul li:nth-child(2){
-    width:100%;
-    height:4rem;
-}
-header nav ul li:nth-child(3){
-    width:100%;
-    height:4rem;
-}
-header nav ul li:nth-child(4){
-    width:100%;
-    height:4rem;
-}
-header nav ul li:nth-child(5){
-    width:100%;
-    background-color:white;
-    height:4rem;
-}
-header nav ul li:nth-child(6){
-    width:100%;
-    height:4rem;
-}
-header nav ul li:nth-child(7){
-    width:100%;
-    height:4rem;
+#cohort_input2:checked + #this_year_cohorts2{
+    display:block;
 }
 
-header nav ul li a{
+#cohort_title{
+    font-size:2.5rem;
+    color:white;
+}
+.cohort_pictures_div{
+    background-color:#ffffff;
+    color:black;
+    height:100rem;
+}
+.cohort_pic{
+    text-align: center;
+    margin:1rem 0 1rem 0;
+    width:calc(100%/4);
+    display:inline-block;
+    float:left;
+    background-color:#ffffff;
+    height: auto;
+}
+.cohort_pic img{
+    height:15rem;
+}
+.cohort_names{
+    margin:1rem 0 1rem 0;
+}
+.cohort_text_left{
+    display:inline-block;
+    text-align:left;
+    width:90%;
+}
+
+/* added extra footer to make it look like the is a space between the cohort label and the bottom of page, but it was breaking too much so it was greyed out.  may or may not use it again. fixed it by adding margin bottom to second cohort label */
+
+/*
+.extra_footer{
+    display:block;
+    height:2rem;
+    width:100%;
+    background-color:#7A1501;
     margin:0;
     padding:0;
-    height:100%;
-    width:20%;
-    font-weight: 600;    
-}
+}*/
+
+/* start media query for cohort page */
+@media only screen and (max-width:1017px){
     
-    header nav ul li a:hover{
-        background-color:#F9DA0C;
+    #cohort_content{
+        width:98%;
+        margin-top:3rem;
     }
-    
-/* yellow is id for sign up link */
-    
-    #yellow{
-        display: inline-block;
-        height: 100%;
-        width: 20%;
-        background-color:#F9DA0C;
-    }
-    
-    header nav ul li span:hover{
-    background-color:#F9DA0C;
-}
-    header nav ul li:hover{
-    background-color:white;
+.cohort_label{
+    width:100%;
 }
     
-    main img{
+ /* second label and input*/
+
+.cohort_label2{
+    width:100%;
+}
+    .cohort_div{
         width:100%;
     }
+    .cohort_pictures_div{
+        width:100%;
+        height:auto;
+        display: inline-block;
+    }
+.cohort_pictures_div > p{
+    text-align: center;
+    margin-top:5px;   
+    width:calc(100%/3);
+    display: inline-block;
     
-/* adjusting link images and text below it to work for media query */    
+}
     
-    footer{
-        height: auto;   
+    .cohort_pic:nth-child(7){
+        float:none;
+    }
+    .cohort_pic:nth-child(8){
+        float:none;
+    }
+    .cohort_pic span{
+        width:23rem;
+        display:inline-block;
+    }
+.cohort_names{
+    font-size:2rem;
+}
+.cohort_text_left{
+    display:inline-block;
+    text-align:left;
+    width:90%;
+}
+
+    
+}
+
+/* cohort media query max width 930px, to keep owl visible */
+
+@media only screen and (max-width:930px){
+    
+    #cohort_owl_visible{
+        display: block;
+        margin-top:3.5rem;
     }
     
-.links{
-    width:100%;
-}
-
+    #cohort_nav{
+        background-color: white;
+    }
     
-.link_images span{
-    font-size: 1.3rem;
-    width:100%;
-}
-
+    .cohort_position{
+        height: auto;
+    }
+    
+    #cohort_content{
+        margin-top:7rem;
+    }
+    
     
 }
 
+/* added phone size media query for cohort page to display the images and its content in one column only */
+
+@media only screen and (max-width:767px){
+   
+ /* second label and input*/
+
+    .cohort_div{
+        width:auto;
+        height:auto;
+    }
+    .cohort_pictures_div{
+        height:auto;
+    }
+    .cohort_pictures_div > p{
+        width:100%;
+        height:auto;
+    }
+    .cohort_pictures_div > p > img{
+        width:60%;
+        height:auto;
+        
+    }
+    .cohort_pic span{
+        width:60%;
+        line-height: 2.1rem;
+    }
+    .cohort_pic:nth-child(7){
+        float:left;
+        position:relative;
+        top:-0rem;
+    }
+    .cohort_label{
+        height:6rem;
+    }
+    .cohort_label2{
+        height:6rem;
+    }
+    .cohort_label span{
+    position:relative;
+    top:2rem;
+    }
+    .cohort_label2 span{
+    position:relative;
+    top:2rem;
+    }
+}
+
+/* media query for cohort page max width 283px */
+
+
+@media only screen and (max-width:313px){
+    
+    #cohort_content{
+        margin-top:11rem;
+    }
+}
 
 
 
-/*------------------------------------*\
-    PAGES
-\*------------------------------------*/
-
-
-
-/*------------------------------------*\
-    IMAGES
-\*------------------------------------*/
-
-
-
-/*------------------------------------*\
-	TYPOGRAPHY
-\*------------------------------------*/
-
-@font-face {
-	font-family:'Font-Name';
-	src:url('fonts/font-name.eot');
-	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
-		url('fonts/font-name.woff') format('woff'),
-		url('fonts/font-name.ttf') format('truetype'),
-		url('fonts/font-name.svg#font-name') format('svg');
-    font-weight:normal;
-    font-style:normal;
-}
-
-/*------------------------------------*\
-    RESPONSIVE
-\*------------------------------------*/
-
-@media only screen and (min-width:320px) {
-
-}
-@media only screen and (min-width:480px) {
-
-}
-@media only screen and (min-width:768px) {
-
-}
-@media only screen and (min-width:1024px) {
-
-}
-@media only screen and (min-width:1140px) {
-
-}
-@media only screen and (min-width:1280px) {
-
-}
-@media only screen and (-webkit-min-device-pixel-ratio:1.5),
-	   only screen and (min-resolution:144dpi) {
-
-}
-
-/*------------------------------------*\
-    MISC
-\*------------------------------------*/
-
-::selection {
-	background:#04A4CC;
-	color:#FFF;
-	text-shadow:none;
-}
-::-webkit-selection {
-	background:#04A4CC;
-	color:#FFF;
-	text-shadow:none;
-}
-::-moz-selection {
-	background:#04A4CC;
-	color:#FFF;
-	text-shadow:none;
-}
-
-/*------------------------------------*\
-    WORDPRESS CORE
-\*------------------------------------*/
-
-.alignnone {
-	margin:5px 20px 20px 0;
-}
-.aligncenter,
-div.aligncenter {
-	display:block;
-	margin:5px auto 5px auto;
-}
-.alignright {
-	float:right;
-	margin:5px 0 20px 20px;
-}
-.alignleft {
-	float:left;
-	margin:5px 20px 20px 0;
-}
-a img.alignright {
-	float:right;
-	margin:5px 0 20px 20px;
-}
-a img.alignnone {
-	margin:5px 20px 20px 0;
-}
-a img.alignleft {
-	float:left;
-	margin:5px 20px 20px 0;
-}
-a img.aligncenter {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
-.wp-caption {
-	background:#FFF;
-	border:1px solid #F0F0F0;
-	max-width:96%;
-	padding:5px 3px 10px;
-	text-align:center;
-}
-.wp-caption.alignnone {
-	margin:5px 20px 20px 0;
-}
-.wp-caption.alignleft {
-	margin:5px 20px 20px 0;
-}
-.wp-caption.alignright {
-	margin:5px 0 20px 20px;
-}
-.wp-caption img {
-	border:0 none;
-	height:auto;
-	margin:0;
-	max-width:98.5%;
-	padding:0;
-	width:auto;
-}
-.wp-caption .wp-caption-text,
-.gallery-caption {
-	font-size:11px;
-	line-height:17px;
-	margin:0;
-	padding:0 4px 5px;
-}
-.sticky {
-
-}
-.bypostauthor {
-
-}
-
-/*------------------------------------*\
-    PRINT
-\*------------------------------------*/
-
-@media print {
-	* {
-		background:transparent !important;
-		color:#000 !important;
-		box-shadow:none !important;
-		text-shadow:none !important;
-	}
-	a,
-	a:visited {
-		text-decoration:underline;
-	}
-	a[href]:after {
-		content:" (" attr(href) ")";
-	}
-	abbr[title]:after {
-		content:" (" attr(title) ")";
-	}
-	.ir a:after,
-	a[href^="javascript:"]:after,
-	a[href^="#"]:after {
-		content:"";
-	}
-	pre,blockquote {
-		border:1px solid #999;
-		page-break-inside:avoid;
-	}
-	thead {
-		display:table-header-group;
-	}
-	tr,img {
-		page-break-inside:avoid;
-	}
-	img {
-		max-width:100% !important;
-	}
-	@page {
-		margin:0.5cm;
-	}
-	p,
-	h2,
-	h3 {
-		orphans:3;
-		widows:3;
-	}
-	h2,
-	h3 {
-		page-break-after:avoid;
-	}
-}
+/* end cohort page */

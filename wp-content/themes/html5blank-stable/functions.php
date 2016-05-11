@@ -115,12 +115,15 @@ function html5blank_conditional_scripts()
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
+
+
+    
     wp_register_style('normalize', get_template_directory_uri() . '/normalize.css', array(), '1.0', 'all');
     wp_enqueue_style('normalize'); // Enqueue it!
 
     wp_register_style('html5blank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('html5blank'); // Enqueue it!
-    
+
     wp_register_style('about', get_template_directory_uri() . '/about.css', array(), '1.0', 'all');
     wp_enqueue_style('about'); // Enqueue it!
     
@@ -133,13 +136,15 @@ function html5blank_styles()
     wp_register_style('courses', get_template_directory_uri() . '/courses.css', array(), '1.0', 'all');
     wp_enqueue_style('courses'); // Enqueue it!
     
+    wp_register_style('signup', get_template_directory_uri() . '/signup.css', array(), '1.0', 'all');
+    wp_enqueue_style('signup'); // Enqueue it!
+    
     wp_register_style('team', get_template_directory_uri() . '/team.css', array(), '1.0', 'all');
     wp_enqueue_style('team'); // Enqueue it!
     
     wp_register_style('workshops', get_template_directory_uri() . '/workshops.css', array(), '1.0', 'all');
     wp_enqueue_style('workshops'); // Enqueue it!
 }
-
    
 
 // Register HTML5 Blank Navigation

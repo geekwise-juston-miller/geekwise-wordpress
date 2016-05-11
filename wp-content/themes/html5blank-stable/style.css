@@ -25,53 +25,32 @@
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
-/* html element 62.5% font-size for REM use */
-html {
-	font-size:62.5%;
-}
-body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#444;
-}
-/* clear */
-.clear:before,
-.clear:after {
-    content:' ';
-    display:table;
-}
 
-.clear:after {
-    clear:both;
-}
-.clear {
-    *zoom:1;
-}
-img {
-	max-width:100%;
-	vertical-align:bottom;
-}
-a {
-	color:#444;
-	text-decoration:none;
-}
-a:hover {
-	color:#444;
-}
-a:focus {
-	outline:0;
-}
-a:hover,
-a:active {
-	outline:0;
-}
-input:focus {
-	outline:0;
-	border:1px solid #04A4CC;
-}
 
 /*------------------------------------*\
     STRUCTURE
 \*------------------------------------*/
+
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-size: 62.5%;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #7a1501;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+
 
 
 .header1{

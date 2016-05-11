@@ -1,0 +1,301 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-size: 62.5%;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #7a1501;
+    font-size: 1.6rem;
+    display: block;
+}
+
+.full-body-img{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: auto;
+    background-image: url(http://i.imgur.com/ewBQdOp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+header{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 19%;
+    display: block;
+    background-color: #7a1501;
+    
+}
+
+#header_wrap{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+#geek_logo{
+    float: left;
+    margin: 2rem 0 0 1rem;
+    padding: 0;
+    width: 30%;
+    height: 100%;
+    display: block;
+    background-image: url(http://i.imgur.com/86TsPmf.png);
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+nav > ul{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    
+
+}
+
+nav > ul > li{
+    text-align: center;
+    padding: 0;
+    margin: 1rem 1rem 0;
+    width: calc(100%/6) auto;
+    height: 5rem;
+    line-height: 5rem;
+    list-style-type: none;
+    font-weight: bold;
+    display: block;
+    font-size: 1.5rem;
+    float: right;
+    
+}
+
+.links{
+    text-decoration: none;
+    color: #fff;
+
+}
+/* "contact" nav bar */
+
+#letter_yellow{
+    color: #f9da0c;
+    text-decoration: none;
+    
+}
+
+/* "signup" nav bar*/
+
+
+#signup-box{
+    text-align: center;
+    margin: 0 1rem 0;
+    padding: 0;
+    display: inline-block;
+    width: 7rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #7a1501;
+    text-decoration: none;
+    background-color: #f9da0c;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+/* mouse over link */
+
+.links:hover{
+    color: #f9da0c;
+}
+
+/* selected link */
+
+.links:active{
+    color: #f9da0c;
+}
+
+
+main{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+   
+}
+
+#text_img_wrap{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+#text-img{
+    margin: 0 auto;
+    padding: 0;
+    width: 22rem;
+    height: 25rem;
+    display: block;
+    position: relative;
+    background-color: #fff;
+    top: 35%;
+    left: -20%;
+    overflow-y: hidden;
+    
+}
+
+#text-img > img{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+#text-img > span{
+    margin: 1.6rem 0 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    font-weight: bold;
+}
+
+#text-img > p{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#text-img > p > a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+@media only screen and (min-width:751px){
+    
+#fafa{
+        display: none;
+    }
+    
+input{
+        display: none;
+}
+}
+
+@media only screen and (max-width:750px){
+        
+#label_wrap{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        background-color: #7a1501; 
+        
+}
+    
+nav{
+        display: none;
+}
+    
+#fafa{
+        display: block;
+        margin: 2.5rem 1.8rem 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        visibility: visible;
+        color: #dddddd;
+        border: solid .1rem;
+        border-radius: .3rem;
+        float: right;
+        clear: right;
+        font-size: 3.1rem;
+    
+}
+    
+#toggle-1{
+        display: none;
+    
+}
+    
+#toggle-1:checked~nav{
+        position: relative;
+        display: block;
+    
+}
+    
+    /* "signup" nav bar*/
+
+#signup-box{
+        margin: .1rem 1.5rem 0;
+        padding: 0;
+        display: inline-block;
+        width: 8rem;
+        height: 5rem;
+        line-height: 5rem;
+        color: #7a1501;
+        text-decoration: none;
+        background-color: #f9da0c;
+        float: right;
+        font-size: 1.5rem;
+        font-weight: bold;
+    
+}
+    
+
+nav > ul > li{
+    
+    text-align: center;
+    padding: 0;
+    margin: -1.9rem 0 0 auto;
+    width: 100%;
+    height: 7rem;
+    line-height: 5rem;
+    list-style-type: none;
+    font-weight: bold;
+    display: block;
+    font-size: 1.5rem;
+    background-color: #7a1501;
+    
+}
+
+}

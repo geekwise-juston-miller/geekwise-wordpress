@@ -1,0 +1,331 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-size: 62.5%;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #7a1501;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+
+/* main header wrap = logos, font awesome as button & nar bar */
+
+.header1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 24rem;
+    background-color: #fff;
+    background-image: url(http://i.imgur.com/2zyQzeb.png);
+    background-repeat: no-repeat;
+    background-position:top right;
+    
+}
+
+/*    div with sm geekwise logo   */
+
+.logo{
+    display: flex;
+    flex: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: auto;
+    
+}
+
+.logo > a{
+    margin: 2rem 2rem auto;
+    padding: 0;
+    width: auto;
+    height: auto;
+    
+}
+/* nav wrap for @media button dropdown at top of page  */
+
+.label_wrap{
+    display: flex;
+    flex: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/*  full view nav bar */
+
+.nav1{
+    display: flex;
+    flex: auto;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+
+.list1{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.list-item:nth-of-type(1){
+    order: 1;
+}
+
+.list-item:nth-of-type(2){
+    order: 2;
+}
+
+.list-item:nth-of-type(3){
+    order: 3
+}
+
+.list-item:nth-of-type(4){
+    order: 4;
+}
+
+.list-item:nth-of-type(5){
+    order: 5;
+}
+
+.list-item:nth-of-type(6){
+    order: 6;
+}
+
+
+.list-item{
+    margin: 0 auto;
+    padding: 0;
+    width: 8rem;
+    height: 5rem;
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: #fff;
+    
+}
+
+
+.list-item > a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*  end of full view nar bar */
+
+
+/* sign up nav box*/
+
+.signup-box > li{
+    font-weight: normal;
+    background-color: #f9da0c;
+    
+}
+
+/* mouse over link */
+
+.list-item:hover{
+    background-color: #f9da0c;
+    cursor: pointer;
+    transition: background-color 1s ease-out;
+}
+
+/* selected link */
+
+.list-item:active{
+    background-color: #f9da0c;
+}
+
+/* div with "the team" in it */
+
+.the-team{
+    display: block;
+    margin: 5rem 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Khula', sans-serif;
+    font-weight: 700;
+    
+}
+
+/*  Motto container  */
+
+.motto{
+    display: block;
+    margin: 4rem auto;
+    padding: 0;
+    width: 70%;
+    height: 12rem;
+    font-family: "Francois+One";
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+    
+}
+
+/* start of team img section */
+
+/*   bio wrapper   */
+
+.team-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+/* bio img section */
+
+.bio{
+    width: auto;
+    height: auto;
+    text-align: center;
+    opacity: .5;
+}
+
+
+.names{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #000;
+
+}
+
+.click:hover{
+    opacity: 1;
+    
+
+}
+
+.name_text{
+    margin: 1rem 0 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    
+}
+
+
+/*  hide the font awesome button  */
+
+@media only screen and (min-width:870px){
+    
+    #fafa{
+        display: none;
+    }
+    
+    input{
+        display: none;
+}
+    
+}
+
+
+
+@media only screen and (max-width:870px){
+    
+.header1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 24rem;
+    background-color: #fff
+
+}
+    
+    .nav1{
+        display: none;
+    }
+    
+    .label_wrap{
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
+        
+    }
+    
+    label{
+        display: block;
+        margin: 1rem 1.5rem 0 auto;
+        padding: 0;
+        width: auto;
+        height: 3.1rem;
+        cursor: pointer;
+        visibility: visible;
+        color: #888888;
+        border: solid .1rem;
+        border-radius: .4rem;
+        opacity: .7;
+
+    }
+    
+    #toggle-1{
+       display: none;
+    
+}
+    
+    #toggle-1:checked~nav{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+        
+    }
+    
+    .list1{
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+
+
+}

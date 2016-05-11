@@ -1,3 +1,7 @@
+<?php /* Template Name: workshops */ ?>
+
+<?php get_header('workshops'); ?>
+
 <!DOCTYPE html/>
 <html lang="en">
 
@@ -10,19 +14,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
-        
-        
-        
+       
         <link href='https://fonts.googleapis.com/css?family=Khula:800,400' rel='stylesheet' type='text/css'>
         
         <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'/>
         
-        <link href="<?php echo get_template_directory_uri(); ?>/about.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/workshops.css" rel="stylesheet">
         
     </head>
-    <body <?php body_class('about'); ?>>
+    <body <?php body_class('workshops'); ?>>
     
-<!--  header= nav bar, fa awesome.  -->
+    <body>
+    
+<!--  header= nav bar, fa awesome.      -->
     
      <header class="header1">
      
@@ -77,8 +81,9 @@
             </nav> 
             
 <!--     end of nav     -->
-
- <!--  container for signup button        -->
+               
+               
+<!--  container for signup button        -->
                
                
                 <div class="signup-box">
@@ -100,9 +105,7 @@
             <div class="the-title">
             
              <h1>
-                 Learn a real world
-                 <br>
-                  technology skill. Fast.
+                 Learn a real world technology skill. Fast.
              </h1>
              
          </div>
@@ -110,4 +113,5 @@
     </header>
      
 <!-- header close  -->
-               
+  
+  

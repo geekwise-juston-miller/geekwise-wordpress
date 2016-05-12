@@ -1,112 +1,92 @@
-<!DOCTYPE html/>
-<html lang="en">
-
-    <head>
-        
-        <title>Geekwise Academy - We teach technology skills that you can use to make money</title>
-        
-        <meta charset="utf-8"/>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        
-        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
-        
-        <link rel="icon" type="image/png" href="http://i.imgur.com/1QEqn5g.png" type="image/x-icon"/>
-        
-        <link href='https://fonts.googleapis.com/css?family=Khula:800,400' rel='stylesheet' type='text/css'>
-        
-        <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'/>
-        
-        <link href="<?php echo get_template_directory_uri(); ?>/signup.css" rel="stylesheet">
-        
-    </head>
-    
-    <body>
-    
-<!--  header= nav bar, fa awesome.      -->
-    
-     <header class="header1">
-     
-<!--  logo div at the top of the page  -->
-        
-         <div class="logo">
-         
-             <a href="index.html">
-                 <img src="http://i.imgur.com/YVp1P1h.png" alt="geekwise logo">
-             </a> 
-
-<!--    container for hidden button for nav bar on sm screen       -->
-             
-        <div class="label_wrap"> 
-           
-             <label id="fafa" class="fa fa-bars fa-2x" for="toggle-1"></label>
-            
-            <input type="checkbox" id="toggle-1"/>
-  
-<!--  nav buttons   -->
-            
-            <nav class="nav1">
-                               
-                <ul class="list1 media">
-                   
-                    <li class="list-item">
-                        <a href="about.html">About</a>
-                    </li>
-                    
-                    <li class="list-item">
-                        <a href="courses.html">Courses</a>
-                    </li>
-                    
-                    <li class="list-item">
-                        <a href="workshops.html">Workshops</a>
-                    </li>
-                    
-                    <li class="list-item">
-                        <a href="cohort.html">Cohort</a>
-                    </li>
-                                    
-                    <li class="list-item">
-                        <a href="team.html">Team</a>
-                    </li>
-                    
-                    <li class="list-item">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    
-                </ul>                
-                
-            </nav> 
-            
-<!--     end of nav     -->
-               
-               
-<!--  container for signup button        -->
-               
-               
-                <div class="signup-box">
-                    
-                    <li class="list-item">
-                        <a href="signup.html">Signup</a>
-                    </li>
-                    
-                </div>    
-       
-             </div>
-           
+<!DOCTYPE html>
+<html lang="en" id="signup_html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
+    <link href="<?php echo get_template_directory_uri(); ?>/signup.css" rel="stylesheet">
+    <title>Geekwise Academy | Landing Page</title>
+</head>
+<body <?php body_class('signup'); ?>>
+   <div id="margin_top">
+            <a class="signup_link team_signup" href="/index.php?page_id=16"><span>sign up</span></a>
         </div>
-        
-<!--  close of all nav buttons   -->
-           
-           
-<!--  title container   -->
-            <div class="the-title">
-            
-             <h1>
-                 Learn a real world technology skill. Fast.
-             </h1>
-             
-         </div>
-        
+    <header class="contact_header" id="workshops_header">
+        <nav>
+            <ul>
+               <div class="icon_div">
+                <li id="icon">
+                    <a href="/index.php?p=4">
+                        <img src="http://i.imgur.com/sCkxjbZ.png" id="icon_image">
+                    </a>
+                </li>
+               </div>
+               
+               <!--dropdown-->
+               
+               <label for="dropdown" id="bars_label_tag">
+                   <div class="bars_div">
+                       <p class="bar_line"></p>
+                       <p class="bar_line"></p>
+                       <p class="bar_line"></p>
+                   </div>
+               </label>
+               <input type="checkbox" id="dropdown">
+               
+               <!--end dropdowh-->
+               
+               <div class="nav_div team_nav_div" id="nav_background">
+                <li class="contact_about">
+                     <a href="/index.php?page_id=18">
+                        <span class="contact_hover ">
+                            about
+                        </span>
+                    </a>
+                </li>
+                <li class="contact_courses">
+                    <a href="/index.php?page_id=6">
+                        <span class="contact_hover ">
+                            courses
+                        </span>
+                    </a>
+                </li>
+                <li class="contact_workshops">
+                    <a href="/index.php?page_id=8">
+                        <span class="contact_hover">
+                            workshops
+                        </span>
+                    </a>
+                </li>
+                <li class="contact_cohort">
+                    <a href="/index.php?page_id=10">
+                        <span class="contact_hover ">
+                            cohort
+                        </span>
+                    </a>
+                </li>
+                <li class="contact_team">
+                    <a href="/index.php?page_id=12">
+                        <span class="contact_hover contact_color">
+                            team
+                        </span>
+                    </a>
+                </li>
+                <li class="contact_contact">
+                    <a class="contact_color" id="workshops_white_color" href="/index.php?page_id=14">
+                        <span class="contact_hover">
+                            contact
+                        </span>
+                    </a>
+                </li>
+                <li class="added_signup">
+                    <a href="/index.php?page_id=16">
+                        <span>
+                            sign up
+                        </span>
+                    </a>
+                </li>
+              </div>
+              
+            </ul>
+        </nav>  
     </header>
-     
-<!-- header close  -->

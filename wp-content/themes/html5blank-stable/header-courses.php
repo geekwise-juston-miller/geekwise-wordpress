@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
         
         <title>Geekwise Academy - We teach technology skills that you can use to make money</title>

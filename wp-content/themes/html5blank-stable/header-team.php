@@ -1,4 +1,4 @@
-<!DOCTYPE html/>
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -22,7 +22,7 @@
     </head>
     <body <?php body_class('team'); ?>>
     
-    <body>
+    
     
 <!--  header= nav bar, fa awesome.      -->
     
@@ -111,7 +111,3 @@
     </header>
      
 <!-- header close  -->
-  
-  </body>
-  
-<html/>

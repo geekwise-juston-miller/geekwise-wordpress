@@ -2,7 +2,6 @@
 
 <?php get_header(); ?>
 
-<body id="custom_page">
     
     <main class='center_page'>
             <div id="mid_logo">
@@ -52,6 +51,7 @@
                    
                 </ul>
         
-    </div>
-</body>
+        </div>
+    </body>
+</html>
             

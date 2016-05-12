@@ -12,7 +12,6 @@
             <div class="text_area">    
                     
                 <h3>What</h3>
-            
                 <p>
                     Geekwise Academy is an accelerated training program for current and aspiring technologists. Geekwise Academy teaches trainees hard skills in the technology industry in only six weeks. Each course is fast-paced, rigorous, and narrowly focused on a hard skill that is presently in-demand in the technology industry.
                 </p>
@@ -75,8 +74,10 @@
          
           <div>
              
-             <a href="signup.html">
+             <a href="<?php bloginfo('url'); ?>/signup-page.php">
+             
                  <span> Want to Geekwise? Sign-up Today</span>
+                 
              </a>
              
          </div>
@@ -85,4 +86,5 @@
   
   </body>
   
-<html/>
+</html>
+            

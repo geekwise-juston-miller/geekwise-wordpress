@@ -40,14 +40,14 @@
                
                <div class="nav_div team_nav_div">
                 <li class="about">
-                     <a href="/index.php?page_id=18">
+                    <a href="<?php bloginfo('url'); ?>/about-page.php">
                         <span>
                             about
                         </span>
                     </a>
                 </li>
                 <li class="courses">
-                    <a href="/index.php?page_id=6">
+                    <a href="<?php bloginfo('url'); ?>/courses-page.php">
                         <span>
                             courses
                         </span>

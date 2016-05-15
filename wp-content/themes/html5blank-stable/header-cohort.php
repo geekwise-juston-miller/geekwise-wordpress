@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
-    <link href="<?php echo get_template_directory_uri(); ?>/cohort.css" rel="stylesheet">
+   <link href="<?php echo get_template_directory_uri(); ?>/cohort.css" rel="stylesheet">
     <title>Geekwise Academy | Cohort</title>
 </head>
-<body class="team_body">
+<body>
        
        <!-- this div and header section copied from team page -->
        
@@ -40,14 +40,14 @@
                
                <div class="nav_div team_nav_div">
                 <li class="about">
-                    <a href="<?php bloginfo('url'); ?>/about-page.php">
+                     <a href="/index.php?page_id=18">
                         <span>
                             about
                         </span>
                     </a>
                 </li>
                 <li class="courses">
-                    <a href="<?php bloginfo('url'); ?>/courses-page.php">
+                    <a href="/index.php?page_id=6">
                         <span>
                             courses
                         </span>

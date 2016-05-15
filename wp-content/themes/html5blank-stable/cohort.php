@@ -1,7 +1,6 @@
-<?php /* Template Name: cohort */ ?>
-
-<?php get_header('cohort'); ?>
-  
+ <?php /* Template Name: cohort */ ?>
+  <?php get_header('cohort'); ?>
+  <body>
  
     <!-- main section copied from team page -->
     
@@ -184,8 +183,6 @@
             
     <!-- end second cohort-->
                  
-          </footer>
-        <section class="signup_footer"></section>
-    </body>
-    
-</html>    
+    </footer>
+    <section class="signup_footer"></section>
+</body>

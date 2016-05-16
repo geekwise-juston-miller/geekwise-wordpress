@@ -1,5 +1,6 @@
  <?php /* Template Name: signup */ ?> 
-  <?php get_header('signup'); ?>
+ 
+ <?php get_header('signup'); ?>
   
   
   <main class="signup_main">
@@ -73,4 +74,3 @@
    </main>
   <footer class="signup_footer"></footer>
  </body>
-<html/>

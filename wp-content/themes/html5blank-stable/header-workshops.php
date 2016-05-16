@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
+    
+     <title>Geekwise Academy | Workshops</title>
     
     <meta charset="UTF-8">
     
@@ -10,11 +13,11 @@
     
     <link href="<?php echo get_template_directory_uri(); ?>/workshops.css" rel="stylesheet">
     
-    <title>Geekwise Academy | Workshops</title>
+   
     
 </head>
  
- <body <?php body_class('workshops'); ?>>
+ 
    
 <!-- copied header nav bar menu from contact page -->
    

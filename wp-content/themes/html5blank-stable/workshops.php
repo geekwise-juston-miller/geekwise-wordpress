@@ -1,6 +1,8 @@
 <?php /* Template Name: workshops */ ?>
+
 <?php get_header('workshops'); ?>
  
+<body>
      
 <!-- added this paragraph, but positioned it to header section in css -->
        
@@ -93,4 +95,3 @@
        
         <img src="http://i.imgur.com/Bkba1Pj.png" id="half_owl">
     </body>
-<html/>

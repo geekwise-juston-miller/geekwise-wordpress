@@ -4,159 +4,7 @@ html, body{
     font-size:62.5%;
     width:100%;
     height:100%;
-    background-color:#7a1501;
-}
-
-body{
-    width:100%;
-    height: 100%;
-    text-align: center;
-    background-color:#7a1501;
-    font-family: sans-serif;
-}
-
-ul{
-    display: inline-block;
-    margin:0 auto;
-    list-style: none;
-    padding:0;
-}
-
-a{
-    display: inline-block;
-    text-decoration: none;
-}
-
-#index_label{
-    background-color:white;
-}
-
-header{
-    margin:0;
-    padding:0;
-    width:100%;
-    height: 5rem;
-    background-color:white;
-}
-
-header nav{
-    height: 100%;
-    width:100%;
-    margin:0 auto;
-    display:block;
-}
-
-/*  bars is input id */
-
-#bars{
-    display: none;
-}
-input{
-    display: none;
-}
-
-header nav ul{
-    width:55rem;
-    height:100%;
-}
-
-header nav ul li{
-    font-size: 1.3rem;
-    display:inline-block;
-    height:100%;
-    margin:0;
-    padding:0;
-    font-weight: 600;
-}
-
-header nav ul li:hover{
-    background-color:#F9DA0C;
-}
-
-header nav ul li:nth-child(1){
-    width:12%;
-}
-header nav ul li:nth-child(2){
-    width:14%;
-}
-header nav ul li:nth-child(3){
-    width:18%;
-}
-header nav ul li:nth-child(4){
-    width:13%;
-}
-
-/* sign up link needed to be added */
-
-header nav ul li:nth-child(5){
-    width:11%;
-    background-color:#F9DA0C;
-    font-size:1.2rem;
-}
-
-header nav ul li:nth-child(6){
-    width:10%;
-}
-
-header nav ul li:nth-child(7){
-    width:14%;
-}
-
-header nav ul li a{
-    color:black;
-    text-transform: uppercase;
-    height: 100%;
-    width:100%;
-}
-
-header nav ul li a span{
-    position: relative;
-    top:1.3rem;
-}
-
-#yellow{
-    color:#7A1501;
-    font-weight: 600;
-    font-size:1.3rem;
-}
-
-#navbar_hidden{
-    display: none;
-}
-
-/* start main section */
-
-main{
-    margin:0;
-    padding:0;
-    width:auto;
-    height: auto;
-    background-color:white;
-}
-
-main img{
-    width:auto;
-    margin-bottom: 5px;
-}
-
-/* end of main section */
-
-/* start footer section */
-
-footer{
-    background-color:#7A1501;
-    display: block;
-    margin:0 auto;
-    text-align: center;
-    color:white;
-    height:auto;
-    padding-bottom: 5rem;
-}
-
-.fluff{
-    width:70%;
-    display:inline-block;
-    font-size:3rem;
+    font-family:sans-serif;
 }
 
 @font-face {
@@ -164,413 +12,596 @@ footer{
     src: url('../fonts/franchise-bold-webfont.woff');
 }
 
-#h3_1{
-    text-transform: uppercase;
-    margin:0;
-    padding:0;
-    font-family:'franchise';
-    padding-top:3rem
-}
-
 @font-face {
     font-family: 'ciria';
     src: url('../fonts/ciria-bold.woff');
 }
 
-#h3_2{
+body{
     margin:0;
     padding:0;
-    font-family: 'ciria';
-}
-
-#divider{
-    width:60%;
-    display: inline-block;
-}
-
-.links{
-    display: inline-block;
-    width:70%;
-    height:auto;
-}
-
-/* this part targets the three icons images at the bottom */
-
-.links p:nth-child(1){
-    width:calc(99%/3);
-    float: left;
-    border-right: 1px solid white;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-.links p:nth-child(2){
-    width:calc(99%/3);
-    float: left;
-    border-right: 1px solid white;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-.links p:nth-child(3){
-    width:calc(99%/3);
-    float: right;
-    display:block;
-    margin:0 auto;
-    height:8rem;
-}
-
-.link_images{
-    display: block;
-    margin:0;
-}
-
-.link_images a{
-    width:auto;
-    color:white;
-}
-
-/* end of: this part targets the three icons images at the bottom */
-
-.link_images span{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    margin:0;
-    padding:0;
-    display: inline-block;
-    height:1.5rem;
     width:100%;
+    height: 100%;
+    text-align: center;
 }
+ 
+/* start about page */
 
-/* start of media query, display nav bar as blocks and not inline */
-
-@media only screen and (max-width:767px){
-    
-    
 header{
-    height: 30rem;
-    display: none;
-}
-    
-    /* added label and input to create a menu icon making user friendly.  dropdown should appear when input checkbox (displayed as none) is checked */
-    
-    label{
-        display: block;
-        height: 12%;
-    }
-    
-    #bars{
-        display: inline-block;
-        width:6%;
-        float: right;
-        border:1px solid lightgrey;
-        opacity:.3;
-        margin:1.4rem 1.4rem 0 0;
-        border-radius:5px;
-    }
-    label > img:hover{
-        background-color:grey;
-    }
-    
-    input:checked + header{
-        display:block;
-    }
-    
-    /* made width to ul 100% so that each list item (menu item) will display as one on top of the other */
-    
-header nav ul{
+    margin:0;
+    padding:0;
     width:100%;
+    height: 10rem;
+}
+
+header nav{
+    height: 100%;
+    width:87rem;
+    margin:0 auto;
+    display:block;
+}
+
+header nav ul{
+    list-style: none;
+    padding:0;
+    display: inline-block; 
+    margin:0 auto;
+    width:100%;
+    height:100%;
+}
+
+.icon_div{
+    display: inline-block;
+    float:left;
+    height: 14.2rem;
+    width:19%;
+    position: relative;
+    top:1rem;
+}
+.nav_div{
+    height: 100%;
+    width:75%;
+    display: inline-block;
+    float: right;
+    font-weight: 600;
+    position:relative;
+    top:-.5rem;
+}
+
+#about_div_navbar{
+    position:relative;
+    top:.4rem;
+    left:-7rem;
+    width:68%;
+}
+
+#icon{
+    display:inline-block;
+    float: left;
 }
 
 header nav ul li{
-    display:inline-block; 
-    height:calc(100%/7);
+    display:inline-block;
+    font-size:1.6rem;
 }
 
 header nav ul li:nth-child(1){
-    width:100%;
-    height:4rem;
-    border-top:1px solid lightgrey;
-    
+    width:13%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(2){
-    width:100%;
-    height:4rem;
+    width:15%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(3){
-    width:100%;
-    height:4rem;
+    width:20%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(4){
-    width:100%;
-    height:4rem;
+    width:15%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(5){
-    width:100%;
-    background-color:white;
-    height:4rem;
+    width:13%;
+    position: relative;
+    top:-.3rem;
 }
 header nav ul li:nth-child(6){
-    width:100%;
-    height:4rem;
-}
-header nav ul li:nth-child(7){
-    width:100%;
-    height:4rem;
+    width:17%;
+    position: relative;
+    top:-.3rem;
 }
 
 header nav ul li a{
-    margin:0;
-    padding:0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: block;
     height:100%;
-    width:20%;
-    font-weight: 600;    
+    width:100%;
+    color:black;
 }
+header nav ul li a span{
+    display: block;
+    height:auto;
+    width:100%;
+    position: relative;
+    top:1.7rem;
     
-    header nav ul li a:hover{
-        background-color:#F9DA0C;
+}
+header nav ul li span:hover{
+    color:#7A1501;
+}
+.vertical_align{
+    position: relative;
+    top:1.3rem;
+    
+}
+.active{
+    color:#7A1501;
+}
+
+main{
+    display: block;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height: auto;
+}
+.about_image{
+    width:auto;
+    float:left;
+    position:relative;
+    top:1px;
+}
+
+#main_div{
+    display:inline-block;
+    width:90rem;
+    height:15rem;
+    
+}
+
+main div div:nth-child(2){
+    font-size: 2.4rem;
+    width:40rem;
+    height:8rem;
+    margin:0 auto;
+    display:inline-block;
+    float:right;
+    position:relative;
+    top:7rem;
+}
+
+main div p{
+    margin:0;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    float:right;
+    width:100%;
+}
+
+#about_learn{
+    
+    font-family: 'franchise';
+    font-size: 3.5rem;
+}
+
+#l{
+    display: inline-block;
+    font-size: 4.1rem
+}
+
+#dropdown{
+    display: none;
+}
+
+#bars{
+    display: none;
+}
+
+#courses_main{
+    height:auto;
+    font-size:1.5rem;
+    text-align: left;
+    display:block;
+    margin:0 auto;
+    width:90rem;
+    text-align: center;
+}
+
+#courses_main div p{
+    text-align: left;
+    text-transform: none;
+    margin-bottom: 1rem;
+}
+
+#courses_main > div > p{
+    padding:2rem 0 2rem 0;
+    font-weight: 100;
+}
+#white_background{
+    height:auto;
+    width:100%;
+    background-color:white;
+    margin-bottom: 2rem;
+}
+.courses_table{
+    background-color:white;
+    height: auto;
+    width:100%;
+    display: inline-block;
+    margin:0 auto;
+    padding:0;
+    font-size:1.4rem;
+}
+.courses_table p{
+    line-height:1.9rem;
+    text-align: center;
+}
+.courses_table p span{
+    display: inline-block;
+}
+#courses_table1{
+        border:none;
+        background-color:#efefef;
+        color:#bbb;
     }
-    
-/* yellow is id for sign up link */
-    
-    #yellow{
-        display: inline-block;
-        height: 100%;
-        width: 20%;
-        background-color:#F9DA0C;
+    #courses_table2{
+        background-color:#efefef;
+        color:#bbb;
     }
+.sold_out{
+    font-size: 1.4rem;
+}
+.column1{
+    height: auto;
+    width:50%;
+    display: inline-block;
+    padding-top:1rem;
     
-    header nav ul li span:hover{
+}
+
+.column2{
+    height:auto;
+    width:7%;
+    display: inline-block;
+}
+.column3{
+    height:auto;
+    width:9%;
+    display: inline-block;
+}
+.column4{
+    height:auto;
+    width:8%;
+    display: inline-block;
+}
+.column5{
+    height:auto;
+    width:10%;
+    display: inline-block;
+}
+.column6{
+    height:auto;
+    width:10%;
+    display: inline-block;
+}
+.courses_enroll{
+    display: inline-block;
+    height:6rem;
+    margin:0 auto;
+    position:relative;
+    top:-3rem;
+    right:1rem;    
     background-color:#F9DA0C;
 }
-    header nav ul li:hover{
-    background-color:white;
+.courses_enroll a{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }
+.courses_enroll a span{
+    position: absolute;
+    top:2rem;
+    left:1.8rem;
+}
+.courses_underline{
+    text-decoration: underline;
+}
+.courses_bold{
+    font-weight: 600;
+}
+.courses_border_top{
+    border-top:1px solid grey;
+}
+.courses_border_bottom{
+    border-bottom:1px solid grey;
+}
+.courses_margin_bottom{
+    margin-bottom: 3rem;
+}
+.courses_column_Monday{
+    height:10rem;
+    padding-top: 2rem
+}
+.courses_padding_bottom1{
+    padding-bottom: 2rem;
+    font-weight: 100;
+}
+.courses_padding_bottom2{
+    padding-bottom: .3rem;    
+    font-weight: 100;
+}
+.courses_padding_bottom3{
+    padding-bottom: 7rem;
+    font-weight: 100;
+}
+.courses_position_top{
+    position:relative;
+    top:.6rem;
+}
+
+.courses_font_weight{
+    font-weight: 100;
+}
+
+/* begin media query with max-width of 930px for courses page */
+
+@media only screen and (max-width:930px){
     
-    main img{
-        width:100%;
+    #courses_main{
+        width:98%;
+    }
+    .courses_enroll{
+        width:9rem
+    }
+    .column2, .column4, column5, column6{
+        width:6.5rem;
+    }
+    .column3{
+        width:8.2rem;
+    }
+    #courses_title{
+        display: none;
     }
     
-/* adjusting link images and text below it to work for media query */    
-    
-    footer{
-        height: auto;   
+    #courses_subtitle1{
+        font-size:1.5em;
+        height:auto;
+        line-height: 2.5rem;
+    }
+    #courses_subtitle2{
+        font-size:1.5em;
+        height:auto;
+        line-height: 2.5rem;
+    }
+    #courses_subtitle3{
+        font-size:1.5em;
+        height:auto;
+        line-height: 2.5rem;
+    }
+    #courses_subtitle4{
+        font-size:1.5em;
+        height:auto;
+        line-height: 2.5rem;
+    }
+    #courses_subtitle5{
+        font-size:1.5em;
+        height:auto;
+        line-height: 2.5rem;
     }
     
-.links{
-    width:100%;
-}
-
+    .courses_padding_bottom1{
+        padding-bottom: 0rem;
+    }
     
-.link_images span{
-    font-size: 1.3rem;
-    width:100%;
-}
-
+    
     
 }
 
 
-
-
-/*------------------------------------*\
-    PAGES
-\*------------------------------------*/
-
-
-
-/*------------------------------------*\
-    IMAGES
-\*------------------------------------*/
-
-
-
-/*------------------------------------*\
-	TYPOGRAPHY
-\*------------------------------------*/
-
-@font-face {
-	font-family:'Font-Name';
-	src:url('fonts/font-name.eot');
-	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
-		url('fonts/font-name.woff') format('woff'),
-		url('fonts/font-name.ttf') format('truetype'),
-		url('fonts/font-name.svg#font-name') format('svg');
-    font-weight:normal;
-    font-style:normal;
+#half_owl{
+    float:right;
+    z-index: -1;
+    position:relative;
+    top:-50rem;
+}
+#pictures_div > p{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+    margin-top:2rem;
 }
 
-/*------------------------------------*\
-    RESPONSIVE
-\*------------------------------------*/
-
-@media only screen and (min-width:320px) {
-
-}
-@media only screen and (min-width:480px) {
-
-}
-@media only screen and (min-width:768px) {
-
-}
-@media only screen and (min-width:1024px) {
-
-}
-@media only screen and (min-width:1140px) {
-
-}
-@media only screen and (min-width:1280px) {
-
-}
-@media only screen and (-webkit-min-device-pixel-ratio:1.5),
-	   only screen and (min-resolution:144dpi) {
-
+.pictures img{
+    width: auto;
+    display:inline-block;
+    
 }
 
-/*------------------------------------*\
-    MISC
-\*------------------------------------*/
-
-::selection {
-	background:#04A4CC;
-	color:#FFF;
-	text-shadow:none;
-}
-::-webkit-selection {
-	background:#04A4CC;
-	color:#FFF;
-	text-shadow:none;
-}
-::-moz-selection {
-	background:#04A4CC;
-	color:#FFF;
-	text-shadow:none;
+.span_font{
+    font-size: 1.1rem;
+    display: block;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    font-weight: 600;
 }
 
-/*------------------------------------*\
-    WORDPRESS CORE
-\*------------------------------------*/
 
-.alignnone {
-	margin:5px 20px 20px 0;
-}
-.aligncenter,
-div.aligncenter {
-	display:block;
-	margin:5px auto 5px auto;
-}
-.alignright {
-	float:right;
-	margin:5px 0 20px 20px;
-}
-.alignleft {
-	float:left;
-	margin:5px 20px 20px 0;
-}
-a img.alignright {
-	float:right;
-	margin:5px 0 20px 20px;
-}
-a img.alignnone {
-	margin:5px 20px 20px 0;
-}
-a img.alignleft {
-	float:left;
-	margin:5px 20px 20px 0;
-}
-a img.aligncenter {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
-.wp-caption {
-	background:#FFF;
-	border:1px solid #F0F0F0;
-	max-width:96%;
-	padding:5px 3px 10px;
-	text-align:center;
-}
-.wp-caption.alignnone {
-	margin:5px 20px 20px 0;
-}
-.wp-caption.alignleft {
-	margin:5px 20px 20px 0;
-}
-.wp-caption.alignright {
-	margin:5px 0 20px 20px;
-}
-.wp-caption img {
-	border:0 none;
-	height:auto;
-	margin:0;
-	max-width:98.5%;
-	padding:0;
-	width:auto;
-}
-.wp-caption .wp-caption-text,
-.gallery-caption {
-	font-size:11px;
-	line-height:17px;
-	margin:0;
-	padding:0 4px 5px;
-}
-.sticky {
+    label{
+        display: block;
+        margin:0 auto;
+        height:15rem;
+        width:50%;
+        float: right;
+    }
+    .team_nav_div{
+        display:none;
+    }
+    #bars:hover{
+        background-color:grey;
+    }
+    input:checked + div{
+        display: block;
+    }
+    
+    
 
-}
-.bypostauthor {
+ /*media query at max-width 284px */
 
+@media only screen and (max-width:284px){
+    
+    
+    
+.team_signup{
+    position:absolute;
+    top:6rem;
+    transform: translateX(-10rem);
+}
+    
 }
 
-/*------------------------------------*\
-    PRINT
-\*------------------------------------*/
 
-@media print {
-	* {
-		background:transparent !important;
-		color:#000 !important;
-		box-shadow:none !important;
-		text-shadow:none !important;
-	}
-	a,
-	a:visited {
-		text-decoration:underline;
-	}
-	a[href]:after {
-		content:" (" attr(href) ")";
-	}
-	abbr[title]:after {
-		content:" (" attr(title) ")";
-	}
-	.ir a:after,
-	a[href^="javascript:"]:after,
-	a[href^="#"]:after {
-		content:"";
-	}
-	pre,blockquote {
-		border:1px solid #999;
-		page-break-inside:avoid;
-	}
-	thead {
-		display:table-header-group;
-	}
-	tr,img {
-		page-break-inside:avoid;
-	}
-	img {
-		max-width:100% !important;
-	}
-	@page {
-		margin:0.5cm;
-	}
-	p,
-	h2,
-	h3 {
-		orphans:3;
-		widows:3;
-	}
-	h2,
-	h3 {
-		page-break-after:avoid;
-	}
+ start contact page 
+
+.contact_header{
+    background-color:#7A1501;
+}
+.header_color{
+    background-color:#7A1501;
+    height:7rem;
+}
+.contact_about > a{
+    color:white;
+    position: relative;
+    top:-.8rem;
+}
+.contact_courses > a{
+    color:white;
+    position: relative;
+    top:-.8rem;
+}
+.contact_workshops > a{
+    color:white;
+    position: relative;
+    top:-.8rem;
+}
+.contact_cohort > a{
+    color:white;
+    position: relative;
+    top:-.8rem;
+}
+.contact_team > a{
+    color:white;
+    position: relative;
+    top:-.8rem;
+}
+.contact_contact > a{
+    color:white;
+    position: relative;
+    top:-.8rem;
+}
+
+.added_signup a span{
+    color:#7A1501;
+    
+}
+.contact_active{
+    color:#F9DA0C;
+}
+.contact_color{
+    color:white;
+}
+
+.contact_nav{
+    width:60rem;
+}
+
+.active2{
+    color:#F9DA0C;
+}
+.contact_hover{
+    position: relative;
+    top:2.5rem;
+}
+.contact_hover:hover{
+    color:#F9DA0C;
+}
+
+.contact_info{
+    display:inline-block;
+    font-size: 2rem;
+    width:100%;
+    text-align:center;
+    font-size:1rem;
+    line-height:4rem;
+}
+.contact_info a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.dif_color{
+    color:black;
+    font-weight: 600;
+}
+
+.email{
+    font-size:.9rem;
+}
+.email a{
+    text-decoration: none;
+    color:#7A1501;
+}
+.signup_link{
+    font-family: sans-serif;
+    font-size:1.4rem;
+    float:right;
+    text-decoration: none;
+    color:#7A1501;
+    width:8rem;
+    height:5rem;
+    background-color:#F9DA0C;
+    position:relative;
+    bottom:7rem;
+    right:5rem;
+    text-transform: uppercase;
+}
+
+.signup_link span{
+    position:relative;
+    top:1.5rem;
+}
+
+#info_hidden{
+    display:block;
+}
+
+/* start media query for sign up page.  made width 100% */
+
+@media only screen and (max-width:930px){
+    
+    .course{
+    width:100%;        
+}
+    .signup_main{
+        height:auto;
+    }
+    #signup_html{
+        background-color:#7a1501;
+    }
+    
 }

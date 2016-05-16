@@ -1,13 +1,23 @@
 <!DOCTYPE html>
+
 <html lang="en" id="signup_html">
+    
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
-    <link href="<?php echo get_template_directory_uri(); ?>/signup.css" rel="stylesheet">
+    
     <title>Geekwise Academy | Landing Page</title>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
+    
+    <link href="<?php echo get_template_directory_uri(); ?>/signup.css" rel="stylesheet">
+    
 </head>
-<body <?php body_class('signup'); ?>>
+
+<body>
+    
    <div id="margin_top">
             <a class="signup_link team_signup" href="/index.php?page_id=16"><span>sign up</span></a>
         </div>

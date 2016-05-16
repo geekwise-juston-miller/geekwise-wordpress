@@ -10,9 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
-        
-        <link rel="icon" type="image/png" href="http://i.imgur.com/1QEqn5g.png" type="image/x-icon"/>
-        
+       
         <link href='https://fonts.googleapis.com/css?family=Khula:800,400' rel='stylesheet' type='text/css'>
         
         <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'/>

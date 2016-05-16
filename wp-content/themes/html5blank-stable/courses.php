@@ -2,10 +2,6 @@
 
 <?php get_header('courses'); ?>
 
-<h1><?php the_title(); ?></h1>
-<?php while (have_posts() ): the_post();?>
-<p class="course-content"><?php the_content(); ?></p>
-<?php endwhile; ?>
 
 
         <div id="workshops_fluff" class="courses_fluff">
@@ -16,12 +12,17 @@
         
     <main id="courses_main">
         <div>
-            <p>
+          <p>
           </p>
         </div>
         
         
 <nav id="white_background">
+
+<h1><?php the_title(); ?></h1>
+<?php while (have_posts() ): the_post();?>
+<p class="course-content"><?php the_content(); ?></p>
+<?php endwhile; ?>
 
 <!-- table title -->
     <section class="courses_table" id="courses_title">

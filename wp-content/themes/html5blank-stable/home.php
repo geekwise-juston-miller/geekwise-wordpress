@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 
-    <?php echo wpautop($post->post_content); ?>
+   
     
     <main class='center_page'>
             <div id="mid_logo">

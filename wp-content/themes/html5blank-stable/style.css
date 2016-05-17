@@ -85,7 +85,7 @@ body{
 
 
 
-#header-1{
+#home_page_header{
     margin: 0 auto;
     padding: 0;
     display: block;
@@ -97,7 +97,7 @@ body{
 
 }
 
-#nav-1{
+#home_page_nav-1{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -115,11 +115,10 @@ body{
     margin: 0 auto;
     padding: 0;
     width: 80%;
-    height: 12rem;
+    height: 13rem;
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
-    align-content:center;
     justify-content: center;
     
 }

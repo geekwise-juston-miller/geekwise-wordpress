@@ -29,7 +29,7 @@
 			<!-- header -->
 		<!--        nav bar          -->
     
-     <header id="header-1">
+     <header id="home_page_header">
 
 <!--    container for hidden button for nav bar on sm screen       -->
              
@@ -40,7 +40,7 @@
             <input type="checkbox" id="toggle-1"/>
             
             
-            <nav id="nav-1">
+            <nav id="home_page_nav-1">
                                
                 <ul id="list-1" class="media">
                    

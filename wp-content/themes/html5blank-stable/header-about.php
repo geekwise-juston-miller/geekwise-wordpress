@@ -51,27 +51,27 @@
                 <ul class="list1 media">
                    
                     <li class="list-item">
-                        <a href="<?php bloginfo('url'); ?>/about-page.php">About</a>
+                        <a href="/index.php?page_id=6">About</a>
                     </li>
                     
                     <li class="list-item">
-                        <a href="<?php bloginfo('url'); ?>/courses-page.php">Courses</a>
+                        <a href="/index.php?page_id=8">Courses</a>
                     </li>
                     
                     <li class="list-item">
-                        <a href="<?php bloginfo('url'); ?>/workshops-page.php">Workshops</a>
+                        <a href="/index.php?page_id=10">Workshops</a>
                     </li>
                     
                     <li class="list-item">
-                        <a href="<?php bloginfo('url'); ?>/cohort-page.php">Cohort</a>
+                        <a href="/index.php?page_id=12"></a>Cohort</a>
                     </li>
                                     
                     <li class="list-item">
-                        <a href="<?php bloginfo('url'); ?>/team-page.php">Team</a>
+                        <a href="/index.php?page_id=14">Team</a>
                     </li>
                     
                     <li class="list-item">
-                        <a href="<?php bloginfo('url'); ?>/Contact-page.php">Contact</a>
+                        <a href="/index.php?page_id=16">Contact</a>
                     </li>
                     
                 </ul>                

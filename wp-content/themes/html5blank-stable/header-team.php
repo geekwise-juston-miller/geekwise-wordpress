@@ -49,27 +49,27 @@
                 <ul class="list1 media">
                    
                     <li class="list-item">
-                        <a href="about.html">About</a>
+                        <a href="/index.php?page_id=6">About</a>
                     </li>
                     
                     <li class="list-item">
-                        <a href="courses.html">Courses</a>
+                        <a href="/index.php?page_id=8">Courses</a>
                     </li>
                     
                     <li class="list-item">
-                        <a href="workshops.html">Workshops</a>
+                        <a href="/index.php?page_id=10">Workshops</a>
                     </li>
                     
                     <li class="list-item">
-                        <a href="cohort.html">Cohort</a>
+                        <a href="/index.php?page_id=12">Cohort</a>
                     </li>
                                     
                     <li class="list-item">
-                        <a href="team.html">Team</a>
+                        <a href="/index.php?page_id=14">Team</a>
                     </li>
                     
                     <li class="list-item">
-                        <a href="contact.html">Contact</a>
+                        <a href="/index.php?page_id=16">Contact</a>
                     </li>
                     
                 </ul>                

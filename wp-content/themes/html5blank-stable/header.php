@@ -45,31 +45,31 @@
                 <ul id="list-1" class="media">
                    
                     <li id="home_list_item">
-                        <a href="about.html">About</a>
+                        <a href="/index.php?page_id=6">About</a>
                     </li>
                     
                     <li id="home_list_item">
-                        <a href="courses.html">Courses</a>
+                       <a href="/index.php?page_id=8">Courses</a>
                     </li>
                     
                     <li id="home_list_item__workshop">
-                        <a href="workshops.html">Workshops</a>
+                        <a href="/index.php?page_id=10">Workshops</a>
                     </li>
                     
                     <li id="home_list_item">
-                        <a href="cohort.html">Cohort</a>
+                        <a href="/index.php?page_id=67">Cohort</a>
                     </li>
                     
                     <li id="home_list_item__signup">
-                        <a href="signup.html">Signup</a>
+                        <a href="/index.php?page_id=18">Signup</a>
                     </li>
                     
                     <li id="home_list_item">
-                        <a href="team.html">Team</a>
+                        <a href="/index.php?page_id=14">Team</a>
                     </li>
                     
                     <li id="home_list_item">
-                        <a href="contact.html">Contact</a>
+                        <a href="/index.php?page_id=16">>Contact</a>
                     </li>
                     
                 </ul>                

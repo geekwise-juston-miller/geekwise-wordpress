@@ -44,18 +44,18 @@
                                
                 <ul class="center media">
                    
-                    <li><a class="links" href="about.html">About</a></li>
+                    <li><a class="links"href="/index.php?page_id=6">About</a></li>
                     
-                    <li><a class="links" href="courses.html">Courses</a></li>
+                    <li><a class="links" href="/index.php?page_id=8">Courses</a></li>
                     
-                    <li><a class="links" href="workshops.html">Workshops</a></li>
+                    <li><a class="links" href="/index.php?page_id=10">Workshops</a></li>
                     
-                    <li><a class="links" href="cohorts.html">Cohort</a></li>
+                    <li><a class="links" href="/index.php?page_id=12">Cohort</a></li>
                     
-                    <li><a class="links" href="team.html">Team</a></li>
+                    <li><a class="links" href="/index.php?page_id=67">Team</a></li>
                     
-                    <li><a id="letter_yellow" href="contact.html">Contact</a></li>
-                                        
+                    <li><a id="letter_yellow" href="/index.php?page_id=16">Contact</a></li>
+                                       
                 </ul>                
                 
             </nav>     

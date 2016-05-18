@@ -15,7 +15,7 @@
        
             <div class="text_area">    
                     
-                <h3>What</h3>
+                <h3></h3>
                 
                 <p>
                     what
@@ -26,7 +26,7 @@
                      
           <div class="text_area">
             
-                <h3>Why</h3>
+                <h3></h3>
             
                 <p>
                     why
@@ -45,7 +45,7 @@
             
            
                
-               <h3>How</h3>
+               <h3></h3>
                
                  <p>
                      how
@@ -56,7 +56,7 @@
                 
             <div class="text_area">
                
-               <h3>Details</h3>
+               <h3></h3>
                
                <p>
                    details
@@ -163,10 +163,11 @@
          </div>
          
         </div>
+        <?php endwhile; ?>
 <!--  close right side       -->
                      
      </main>
-<?php endwhile; ?>
+
      
 
 <!--   clickable footer at bottom of the page         -->     

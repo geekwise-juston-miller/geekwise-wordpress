@@ -4,7 +4,7 @@
 
 
 <?php while (have_posts() ): the_post();?>
-<p class="course-content"><?php the_content(); ?></p>
+<p class="about-content"><?php the_content(); ?></p>
 <?php endwhile; ?>
 
     <main class="about-text">
@@ -18,7 +18,7 @@
                 <h3>What</h3>
                 
                 <p>
-                    
+                    what
                    <!--Geekwise Academy is an accelerated training program for current and aspiring technologists. Geekwise Academy teaches trainees hard skills in the technology industry in only six weeks. Each course is fast-paced, rigorous, and narrowly focused on a hard skill that is presently in-demand in the technology industry.-->
                 </p>
                     
@@ -29,6 +29,7 @@
                 <h3>Why</h3>
             
                 <p>
+                    why
                     <!--We need more geeks. Lots of them. And good ones. It’s no secret that software and information technology are among the fastest growing industries on the planet. Despite that truth, there simply aren’t enough technologists to keep up with the demand. Not to mention that these industries offer promising careers and have mountains of jobs that are available today. Geekwise Academy exists to fill that demand by rapidly producing high quality technologists, and then connecting those same technologists to real world opportunities.-->
                 </p>
             
@@ -47,6 +48,7 @@
                <h3>How</h3>
                
                  <p>
+                     how
                    <!--The subject matter for each course is selected by an employer who wants to recruit technologists right out of the Geekwise Academy classroom. Geekwise Academy then works with the employer to build a curriculum specifically designed to effectively teach that skill. Each course is then taught by an industry-expert lecturer. Every second of every course is designed to provide you with the skills that technology employers and clients need you to have.-->
                 </p>
                 
@@ -57,6 +59,7 @@
                <h3>Details</h3>
                
                <p>
+                   details
                    <!--Length: Each course lasts 6 weeks-->
                    <!--<br>-->
                    <!--Time: Each course meets from 6:00-9:00p, two nights per week-->
@@ -89,11 +92,8 @@
                     
                 <h3></h3>
                 <p>
-                    <?php the_title(); ?>
-                    <i>
-                        <?php the_content(); ?>
-                    </i>
-                   <!--Geekwise Academy is an accelerated training program for current and aspiring technologists. Geekwise Academy teaches trainees hard skills in the technology industry in only six weeks. Each course is fast-paced, rigorous, and narrowly focused on a hard skill that is presently in-demand in the technology industry.-->
+                    <?php the_title(); ?><i><?php the_content(); ?></i>
+                  
                 </p>
                     
             </div>

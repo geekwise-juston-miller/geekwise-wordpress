@@ -20,17 +20,29 @@
 
        
         <div id="margin_top">
+            
             <a class="signup_link team_signup" href="/index.php?page_id=18"><span>sign up</span></a>
+            
         </div>
+        
     <header class="contact_header" id="workshops_header">
+        
         <nav>
+            
             <ul>
+                
                <div class="icon_div">
+                   
                 <li id="icon">
+                    
                     <a href="/index.php?p=67">
+                        
                         <img src="http://i.imgur.com/sCkxjbZ.png" id="icon_image">
+                        
                     </a>
+                    
                 </li>
+                
                </div>
                
                <!--dropdown-->

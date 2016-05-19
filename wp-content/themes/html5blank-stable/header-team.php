@@ -21,7 +21,6 @@
     <body <?php body_class('team'); ?>>
     
     
-    
 <!--  header= nav bar, fa awesome.      -->
     
      <header class="header1">

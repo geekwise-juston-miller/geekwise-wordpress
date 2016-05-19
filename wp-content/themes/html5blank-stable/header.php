@@ -69,7 +69,7 @@
                     </li>
                     
                     <li id="home_list_item">
-                        <a href="/index.php?page_id=16">>Contact</a>
+                        <a href="/index.php?page_id=16">Contact</a>
                     </li>
                     
                 </ul>                

@@ -1,107 +1,44 @@
-<?php /* Template Name: about */ ?>
-
-<?php get_header('about'); ?>
-
-     <main class="about-text">
-      
-<!--  left side text area    -->
-      
-      <div class="text_container">
-          
-        <?php while (have_posts() ): the_post();?>
-        <p class="course-content"><?php the_content(); ?></p>
-        <?php endwhile; ?>
-          
-            <div class="text_area">
-                    
-                <h3><?php the_title(); ?></h3>
-                <p>
-                  
-                  <?php the_content(); ?>
-                  
-                    
-                    <!--Geekwise Academy is an accelerated training program for current and aspiring technologists. Geekwise Academy teaches trainees hard skills in the technology industry in only six weeks. Each course is fast-paced, rigorous, and narrowly focused on a hard skill that is presently in-demand in the technology industry.-->
-                    
-                </p>
-                    
-            </div>                                              
-            <div class="text_area">         
-          <div class="text_area">
+ <?php /* Template Name: about */ ?>
+ 
+ <?php get_header( 'about' ); ?>
+ 
+ <div>
+       <?php if (have_posts()) : ?>
+            <?php while (have_posts()) : the_post(); ?>
+            <?php the_content(); ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
             
-                <h3></h3>
-            
-                <p>
-                    
-                    
-                    <!--We need more geeks. Lots of them. And good ones. It’s no secret that software and information technology are among the fastest growing industries on the planet. Despite that truth, there simply aren’t enough technologists to keep up with the demand. Not to mention that these industries offer promising careers and have mountains of jobs that are available today. Geekwise Academy exists to fill that demand by rapidly producing high quality technologists, and then connecting those same technologists to real world opportunities.-->
-
-                </p>
-            
+               
             </div>
-        
-      </div> 
-        
-<!--    left side close        -->
-       
-        <div class="text_container">
-        
-            <div class="text_area">
             
-           
-               
-               <h3></h3>
-               
-               <p>
-                   
-                 
-                   <!--The subject matter for each course is selected by an employer who wants to recruit technologists right out of the Geekwise Academy classroom. Geekwise Academy then works with the employer to build a curriculum specifically designed to effectively teach that skill. Each course is then taught by an industry-expert lecturer. Every second of every course is designed to provide you with the skills that technology employers and clients need you to have.-->
-                </p>
-                
-        </div>
-                
+        <main class="main_about_crud">
             
+ <section class="section_about_crud">     
                
-               <h3></h3>
-               
-               <p>
+                      <?php query_posts('post_type=geekwise_about'); ?>
+                    
+                        <?php while (have_posts()) : the_post(); ?>  
+                <div class="about_what" id="about">
                    
-                   
-                   <!--Length: Each course lasts 6 weeks-->
-                   <!--<br>-->
-                   <!--Time: Each course meets from 6:00-9:00p, two nights per week-->
-                   <!--<br>-->
-                   <!--Location: All Classes meet at Bitwise Mural District (2210 San Joaquin St., Fresno, CA 93721-->
-                   <!--<br>-->
-                   <!--Cost: Each class costs only $250-->
-               </p>
+
+                    <h1><?php the_title(); ?><?php the_content(); ?></h1>
+                    <p class="about"><?php the_field('what'); ?></p>
                 
-                
-         </div>
-         
-        </div>
-        
-<!--  close right side       -->
-                     
-     </main>
-
-
-<!--   clickable footer at bottom of the page         -->     
-
-     <footer>
-         
-          <div>
-             
-             <a href="<?php bloginfo('url'); ?>/signup-page.php">
-             
-                 <span> Want to Geekwise? Sign-up Today</span>
                  
-             </a>
+                </div>
              
-         </div>
-         
-     </footer>
-  
-  </body>
-  
+                
+               <?php endwhile; ?>
+            </section>
+               
+      
+    
+              <div class="want_to">
+                  <a href="/index.php?page_id=18" id="want_to">want to geekwise? sign-up today</a>
+            </div>
+        </main>
+        
+    </body>
+        
 </html>
-            

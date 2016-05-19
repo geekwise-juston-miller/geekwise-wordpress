@@ -186,38 +186,46 @@ main{
     height: 578px;
     margin: 0 auto;
     padding: 0;
-}
-
-.about-text{
-    display: block;
-    width: 90%;
-    height: 80%;
-    margin: 0 auto;
-    padding: 0;
     
 }
 
-.text_container{
-    display: block;
-    width: 50%;
-    height: 100%;
-    float: left;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.text_area{
-    display: block;
+.main_about_crud{
     width: 100%;
-    height: 50%;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 1.6rem;
-    text-align: center;
-    line-height: 2.5rem;
- 
+    background-color: #7a1501;
+    height: auto;
     
+}
+
+.section_about_crud{
+    width: 70%;
+    margin: auto;
+    clear: both;
+    background-color: #7a1501;
+    text-align: left;
+    
+   
+}
+
+#about{
+    width: 46%;
+    float: left;
+    color: #fff;
+    padding-left: 35px;
+    line-height: 2;
+    font-family:"lato",sans-serif;
+    font-size: 1rem;
+
+}
+.want_to{
+    width:100%;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: #f9da0c;
+    margin:0 auto;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+
 }
 
 footer{

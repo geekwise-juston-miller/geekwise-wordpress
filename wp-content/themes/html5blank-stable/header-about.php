@@ -86,7 +86,7 @@
                 <div class="signup-box">
                     
                     <li class="list-item">
-                        <a href="/index.php?page_id=18">Signup</a>
+                        <a href="/index.php?page_id=18">SIGN UP</a>
                     </li>
                     
                 </div>    

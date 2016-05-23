@@ -19,7 +19,7 @@
         <link href="<?php echo get_template_directory_uri(); ?>/contact.css" rel="stylesheet">
         
     </head>
-    <body <?php body_class('contact'); ?>>
+    
     
     
     <body>
@@ -35,7 +35,7 @@
                        
           <div id="label_wrap">
                        
-            <a id="signup-box" href="signup.html">Signup</a>
+            
                         
             <label id="fafa" class="fa fa-navicon" for="toggle-1"></label>
             <input type="checkbox" id="toggle-1"/>     
@@ -55,6 +55,8 @@
                     <li><a class="links" href="/index.php?page_id=67">Team</a></li>
                     
                     <li><a id="letter_yellow" href="/index.php?page_id=16">Contact</a></li>
+                    
+                    <li><a id="signup-box" href="/index.php?page_id=18">Signup</a></li>
                                        
                 </ul>                
                 

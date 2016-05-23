@@ -9,30 +9,48 @@
                <div>
                     <img class="team_image" src="http://i.imgur.com/aVbgh2U.png" id="cohort_owl_visible">
                </div>
+               
+<?php query_posts('post_type=cohort_page'); ?>
+<?php while ( have_posts() ) : the_post(); ?>               
+               
           <div id="the_team_div" class="cohort_heading">
                 <p class="cohort_position cohort_font_family">
-                    <span class="capital_letters"></span> <span class="capital_letters"></span> <span class="capital_letters"></span> <span class="capital_letters"></span><span class="capital_letters"></span><span class="capital_letters"></span>
+                    <?php the_title(); ?>
+                    <!--<span class="capital_letters"></span>-->
+                    <!--<span class="capital_letters"></span>-->
+                    <!--<span class="capital_letters"></span>-->
+                    <!--<span class="capital_letters"></span>-->
+                    <!--<span class="capital_letters"></span>-->
+                    <!--<span class="capital_letters"></span>-->
                 </p>
+                
           </div>
          </div>
     </main>
             <div id="cohort_content">
                 <p class="content">
-              </p>
-                <p class="content">
+                     <?php the_field('text_area_1'); ?>
                 </p>
                 <p class="content">
+                    <?php the_field('text_area_2'); ?>
                 </p>
+                <p class="content">
+                    <?php the_field('goals_title_text_area'); ?>
+                </p>
+                
                 <ol class="content" id="content_ol">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><?php the_field('goal_1'); ?></li>
+                    <li><?php the_field('goal_2'); ?></li>
+                    <li><?php the_field('goal_3'); ?></li>
+                    <li><?php the_field('goal_4'); ?></li>
+                    <li><?php the_field('goal_5'); ?></li>
                 </ol>
                 <p class="content">
+                    <?php the_field('below_goal_text_area'); ?>
                 </p>
             </div>
+            
+<?php endwhile; ?>            
             
     <footer class="cohort_footer">
              <div class="team_text">
@@ -47,14 +65,19 @@
               <input type="checkbox" id="cohort_input">
               
     <!-- begin first cohort -->
+    
+<?php query_posts('post_type=cohort_team1'); ?>
+<?php while ( have_posts() ) : the_post(); ?>    
               
                <div class="cohort_div" id="this_year_cohorts">
                 <div class="cohort_pictures_div">
                    <p class="cohort_pic">
                       <img src="http://i.imgur.com/DelFaCJ.jpg" class="">
                       <span class="span_font cohort_names">
+                          <?php the_field('adam_field'); ?>
                       </span>
                       <span class="cohort_text_left">
+                          <?php the_field('adam_field_text'); ?>
                       </span>
                    </p>
                    <p class="pictures cohort_pic">
@@ -109,6 +132,9 @@
                    </p>
                </div>
                </div>
+               
+<?php endwhile; ?>               
+               
 <!-- end first cohort -->    
         
                 <label for="cohort_input2" class="cohort_label2">

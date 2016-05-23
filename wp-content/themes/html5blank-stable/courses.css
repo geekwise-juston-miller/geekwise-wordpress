@@ -123,8 +123,9 @@ header nav ul li a span{
     top:1.7rem;
     
 }
-header nav ul li span:hover{
-    color:#7A1501;
+.contact_hover:hover{
+    background-color: transparent;
+    color: #f9da0c;
 }
 .vertical_align{
     position: relative;

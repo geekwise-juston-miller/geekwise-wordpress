@@ -1,5 +1,5 @@
 html, body{
-    margin:0;
+    margin:0 auto;
     padding:0;
     font-size:62.5%;
     width:100%;
@@ -124,7 +124,8 @@ header nav ul li a span{
     
 }
 header nav ul li span:hover{
-    color:#7A1501;
+    background-color: transparent;
+    color: #f9da0c;
 }
 .vertical_align{
     position: relative;
@@ -224,7 +225,6 @@ main div p{
 #workshops_fluff p span{
     position:relative;
     top:-2rem;
-    letter-spacing: 1px;
 }
 
 #workshops_main{

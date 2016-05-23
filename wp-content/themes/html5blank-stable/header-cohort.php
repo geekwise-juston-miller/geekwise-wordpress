@@ -7,7 +7,7 @@
    <link href="<?php echo get_template_directory_uri(); ?>/cohort.css" rel="stylesheet">
     <title>Geekwise Academy | Cohort</title>
 </head>
-<body>
+<body <?php body_class('cohort'); ?>>
        
        <!-- this div and header section copied from team page -->
        

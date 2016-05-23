@@ -57,7 +57,7 @@
                     </li>
                     
                     <li id="home_list_item">
-                        <a href="/index.php?page_id=67">Cohort</a>
+                        <a href="/index.php?page_id=12">Cohort</a>
                     </li>
                     
                     <li id="home_list_item__signup">

@@ -12,9 +12,9 @@
                
             </div>
             
-        <main class="main_about_crud">
+        <main class="main_about_text">
             
- <section class="section_about_crud">     
+ <section class="section_about_text">     
                
                       <?php query_posts('post_type=geekwise_about'); ?>
                     
@@ -34,7 +34,7 @@
                
       
     
-              <div class="want_to">
+              <div class="signup_section_bottom_page">
                   <a href="/index.php?page_id=18" id="want_to">want to geekwise? sign-up today</a>
             </div>
         </main>

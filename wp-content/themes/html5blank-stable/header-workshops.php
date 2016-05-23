@@ -17,7 +17,7 @@
     
 </head>
  
- <body <?php body_class(); ?>>
+ <body>
  
    
 <!-- copied header nav bar menu from contact page -->

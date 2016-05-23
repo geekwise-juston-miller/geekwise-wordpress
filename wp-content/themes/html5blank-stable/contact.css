@@ -86,13 +86,14 @@ nav > ul > li{
     padding: 0;
     margin: 1rem 1rem 0;
     width: calc(100%/6) auto;
+    width: 7rem;
     height: 5rem;
     line-height: 5rem;
     list-style-type: none;
     font-weight: bold;
     display: block;
-    font-size: 1.5rem;
-    float: right;
+    font-size: 1.6rem;
+    float: left;
     
 }
 
@@ -116,16 +117,17 @@ nav > ul > li{
     text-align: center;
     margin: 0 1rem 0;
     padding: 0;
-    display: inline-block;
+    display: block;
     width: 7rem;
     height: 5rem;
     line-height: 5rem;
     color: #7a1501;
     text-decoration: none;
     background-color: #f9da0c;
-    float: right;
-    font-size: 1.5rem;
+    /*float: right;*/
+    font-size: 1.3rem;
     font-weight: bold;
+    
     
 }
 

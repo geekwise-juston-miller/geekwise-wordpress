@@ -197,6 +197,20 @@ main div p{
 
 /* cohort BLE tags */
 
+#the_team_div{
+    float:none;
+    width:100%;
+}
+
+#the_team{
+    width:auto;
+    float:none;
+    font-family: franchise;
+    font-size: 5rem;
+    position:relative;
+    top:-5rem;
+}
+
 .cohort_main div{
     height: auto;
 }
@@ -566,4 +580,3 @@ main div p{
     height:2rem;
     background-color:#7a1501;
 }
-

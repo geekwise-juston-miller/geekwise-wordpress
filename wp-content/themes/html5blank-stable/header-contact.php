@@ -31,7 +31,7 @@
        
         <div id="header_wrap" >
            
-            <a href="index.html" id="geek_logo"></a>            
+            <a  href="/index.php?page_id=67" id="geek_logo"></a>            
                        
           <div id="label_wrap">
                        
@@ -52,7 +52,7 @@
                     
                     <li><a class="links" href="/index.php?page_id=12">Cohort</a></li>
                     
-                    <li><a class="links" href="/index.php?page_id=67">Team</a></li>
+                    <li><a class="links" href="/index.php?page_id=14">Team</a></li>
                     
                     <li><a id="letter_yellow" href="/index.php?page_id=16">Contact</a></li>
                     

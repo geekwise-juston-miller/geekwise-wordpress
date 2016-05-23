@@ -29,7 +29,7 @@
         
          <div class="logo">
          
-             <a href="index.html">
+             <a href="/index.php?page_id=67">
                  <img src="http://i.imgur.com/YVp1P1h.png" alt="geekwise logo">
              </a> 
 
@@ -84,7 +84,7 @@
                 <div class="signup-box">
                     
                     <li class="list-item">
-                        <a href="signup.html">Signup</a>
+                        <a href="/index.php?page_id=18">Signup</a>
                     </li>
                     
                 </div>    

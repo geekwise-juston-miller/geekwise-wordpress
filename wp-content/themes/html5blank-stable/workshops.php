@@ -22,96 +22,58 @@
         
     <main id="workshops_main">
         
-        <div>
+         <div>
             <p>
                <span class="workshops_font_weight workshops_underline workshops_font_family">
-                  <?php the_title(); ?> 
+                  <?php the_title(); ?>  <?php the_content(); ?>
+                </span>
+            </p>
+            
+            <p><?php the_field('quote'); ?></p>
+            <p><?php the_field('quote_2'); ?></p>
+            <p><?php the_field('quote_3'); ?></p>   
+            
+            <p>
+                <span class="workshops_font_weight">
+                <?php the_field('date'); ?>
                 </span>
             </p>
             <p>
-                <?php the_content(); ?>
+                <span class="workshops_font_weight">
+                <?php the_field('date_2'); ?>
+                </span>
             </p>
-            <p><?php the_field('quote'); ?></p>
-            <p><?php the_field('date'); ?></p>
+            <p>
+                <span class="workshops_font_weight">
+                <?php the_field('date_3'); ?>
+                </span>
+            </p>
+            
             <p><?php the_field('info'); ?></p>
-            <p><?php the_field('quote_2'); ?> </p>
-            <p><?php the_field('date_2'); ?></p>
-            <p><?php the_field('info_2'); ?> </p>
-            <p><?php the_field('quote_3'); ?></p>
-            <p><?php the_field('date_3'); ?></p>
+            <p><?php the_field('info_2'); ?></p>
             <p><?php the_field('info_3'); ?></p>
             
         </div>
+<?php endwhile; ?>         
         
-         <?php endwhile; ?>
-        
-        <div>
-            <p>
-                <span class="workshops_font_weight workshops_underline workshops_font_family">
-                      
-                </span>
-            </p>
-            <p>
-                <span class="workshops_font_weight">
-                      
-                </span>
-            </p>
-            <p>
-                        
-            </p>
-            <p>
-                    
-            </p>
-            <p>
-                <span class="workshops_font_weight">
-                    
-                </span>
-            </p>
-            <p>
-                    
-            </p>
-            <p>
+        <!--<div>-->
+        <!--    <p>-->
+        <!--        <span class="workshops_font_weight workshops_underline workshops_font_family">-->
                    
-            </p>
-            <p>
-                <span class="workshops_font_weight">
-                     
-                </span>
-            </p>
-            <p>
-                     
-            </p>
-            <p>
-                     
-            </p>
-        </div>
-        
-       
-        
-        <div>
-            <p>
-                <span class="workshops_font_weight workshops_underline workshops_font_family">
-                </span>
-            </p>
-            <p>
-                <span class="workshops_font_weight">
-                </span>
-            </p>
-            <p>
-            </p>
-            <p>
-            </p>
-            <p>
-                <span class="workshops_font_weight">
-                </span>
-            </p>
-            <p>
-            </p>
-            <p>
-            </p>
-        </div>
+        <!--        </span>-->
+        <!--    </p>-->
+        <!--    <p>-->
+        <!--        <span class="workshops_font_weight">-->
+                   
+        <!--        </span>-->
+        <!--    </p>-->
+        <!--    <p>-->
+                    
+        <!--    </p>-->
+            
+        <!--</div>-->
     </main>
-    
+   
     <footer class="workshops_footer">
         <div>
             <p>

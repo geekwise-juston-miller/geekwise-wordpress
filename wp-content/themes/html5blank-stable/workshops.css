@@ -14,8 +14,6 @@ body{
     height: 100%;
     text-align: center;
 }
- 
-/* start about page */
 
 header{
     margin:0;
@@ -203,16 +201,18 @@ main div p{
 }
 
 #workshops_fluff{
-    font-size:2.3rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    /*letter-spacing: 1px;*/
     display:block;
     margin:0 auto;
     background-color:#7A1501;
     height:2rem;
     width:100%;
     color:white;
-    font-weight: 600;
+    font-weight: bold;
     padding:0;
-    font-family: franchise;
+    font-family: "franchise";
 }
 #workshops_fluff p{
     width:90rem;
@@ -229,16 +229,19 @@ main div p{
 
 #workshops_main{
     height:auto;
-    font-size:1.5rem;
+    font-size:1.4rem;
     text-align: left;
     display:block;
     margin:0 auto;
-    width:90rem;
+    padding: 0;
+    width:auto;
 }
-#workshops_main div{
-    width:100%;
+#workshops_main > div{
+    margin: 0 auto;
+    padding: 0;
+    width:70%;
     height:auto;
-    display:inline-block;
+    display:block;
 }
 #workshops_main div p{
     text-align: left;
@@ -248,20 +251,22 @@ main div p{
     width:100%;
     margin-bottom: 1.5rem;
 }
+
 .workshops_font_weight{
     font-weight:600;
 }
 
 .workshops_font_family{
-    font-family: franchise;
+    font-family: "franchise";
     font-size:2.2rem
 }
 
 .workshops_underline{
     border-bottom: 1px solid grey;
     width:100%;
+    height: auto;
     display: inline-block;
-    margin: 2rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 #half_owl{

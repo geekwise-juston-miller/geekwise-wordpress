@@ -16,7 +16,7 @@
             
  <section class="section_about_text">     
                
-                      <?php query_posts('post_type=geekwise_about'); ?>
+                      <?php query_posts('post_type=about'); ?>
                     
                         <?php while (have_posts()) : the_post(); ?>  
                 <div class="about_what" id="about">

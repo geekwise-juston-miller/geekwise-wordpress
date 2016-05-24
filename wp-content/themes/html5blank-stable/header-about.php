@@ -3,16 +3,15 @@
 <html lang="en">
 
     <head>
-        
+        <meta charset="<?php bloginfo('charset'); ?>">
         <title>Geekwise Academy - We teach technology skills that you can use to make money</title>
-        
+        <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+
         <meta charset="utf-8"/>
         
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
-        
-        
         
         <link href='https://fonts.googleapis.com/css?family=Khula:800,400' rel='stylesheet' type='text/css'>
         
@@ -32,7 +31,7 @@
         
          <div class="logo">
              
-             <a href="<?php bloginfo('url'); ?>/home.php">
+             <a href="/index.php?page_id=67">
                  <img src="http://i.imgur.com/YVp1P1h.png" alt="geekwise logo"></img>
              </a>
              

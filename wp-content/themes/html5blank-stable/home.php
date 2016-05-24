@@ -6,7 +6,7 @@
     
     <main class='center_page'>
             <div id="mid_logo">
-                    <a href="index.html">
+                    <a href="/index.php?page_id=67">
                         <img id="geekwise_img"  src="http://i.imgur.com/a4I7opQ.jpg" alt="">
                     </a>
             </div>

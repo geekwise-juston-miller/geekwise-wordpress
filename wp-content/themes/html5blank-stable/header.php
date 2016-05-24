@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
-        <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
+        <!--<link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>-->
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 
@@ -33,16 +33,16 @@
 
 <!--    container for hidden button for nav bar on sm screen       -->
              
-        <div id="label_wrap">                
+        <div id="home_label_wrap">                
                          
-            <label id="fafa" class="fa fa-bars fa-2x" for="toggle-1"></label>
+            <label id="home_fafa" class="fa fa-bars fa-2x" for="toggle-1"></label>
             
             <input type="checkbox" id="toggle-1"/>
             
             
             <nav id="home_page_nav-1">
                                
-                <ul id="list-1" class="media">
+                <ul id="home_list-1" class="media">
                    
                     <li id="home_list_item">
                         <a href="/index.php?page_id=6">About</a>

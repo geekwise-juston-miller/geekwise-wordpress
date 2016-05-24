@@ -86,7 +86,7 @@
         
 <!-- table 1 -->
   
-<?php query_posts('post_type=geekwise_courses'); ?>
+<?php query_posts('post_type=courses'); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
     <section class="courses_table courses_border_top" id="courses_table1">

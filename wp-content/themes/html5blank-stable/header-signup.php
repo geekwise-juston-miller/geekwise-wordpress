@@ -22,7 +22,7 @@
             <a class="signup_link team_signup" href="/index.php?page_id=18"><span>sign up</span></a>
         </div>
     <header class="contact_header" id="workshops_header">
-        <nav>
+        <nav id="sign_up_navigation_hidden">
             <ul>
                <div class="icon_div">
                 <li id="icon">

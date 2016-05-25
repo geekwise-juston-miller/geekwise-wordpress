@@ -300,7 +300,9 @@ p{
     top:3rem;
 }
 
-
+#sign_up_navigation_hidden{
+    visibility: hidden;
+}
 /* start of media query for about page */
 
 @media only screen and (max-width:930px){

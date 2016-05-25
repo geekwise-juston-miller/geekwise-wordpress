@@ -75,7 +75,7 @@
     </main>
    
     <footer class="workshops_footer">
-        <div>
+        <div id="workshop-footer-div">
             <p>
                <a href="/index.php?page_id=16">
                    <span>

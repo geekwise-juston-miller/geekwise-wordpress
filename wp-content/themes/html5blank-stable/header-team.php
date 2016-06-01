@@ -4,17 +4,11 @@
     <head>
         
         <title>Geekwise Academy - We teach technology skills that you can use to make money</title>
-        
         <meta charset="utf-8"/>
-        
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
-       
-        <link href='https://fonts.googleapis.com/css?family=Khula:800,400' rel='stylesheet' type='text/css'>
-        
-        <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'/>
-        
+        <link href="<?php echo get_template_directory_uri(); ?>/fonts.css" rel="stylesheet">
+        <link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
         <link href="<?php echo get_template_directory_uri(); ?>/team.css" rel="stylesheet">
         
     </head>

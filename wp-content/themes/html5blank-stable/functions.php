@@ -100,6 +100,15 @@ function html5blank_header_scripts()
 
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!
+        
+        function load_fonts() {
+            wp_register_style('fonts', get_template_directory_uri().'/fonts.css');
+            wp_enqueue_style( 'fonts');
+        }
+        
+        
+    
+
     }
 }
 
@@ -123,9 +132,8 @@ function html5blank_styles()
     wp_register_style('html5blank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('html5blank'); // Enqueue it!
     
-    wp_register_style('home', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
-    wp_enqueue_style('home'); // Enqueue it!
-
+   
+   
     wp_register_style('about', get_template_directory_uri() . '/about.css', array(), '1.0', 'all');
     wp_enqueue_style('about'); // Enqueue it!
     
@@ -146,6 +154,10 @@ function html5blank_styles()
     
     wp_register_style('workshops', get_template_directory_uri() . '/workshops.css', array(), '1.0', 'all');
     wp_enqueue_style('workshops'); // Enqueue it!
+    
+     wp_register_style('home', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
+    wp_enqueue_style('home'); // Enqueue it!
+    
 }
    
 
@@ -375,6 +387,7 @@ add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
 add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
+add_action('fonts', 'load_fonts');
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds

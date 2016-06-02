@@ -152,7 +152,7 @@
             <p>
                <a href="/index.php?page_id=16">
                    <span>
-                       
+                       SEATING IS LIMITED, SIGN UP TODAY
                     </span>
                </a>                
             </p>

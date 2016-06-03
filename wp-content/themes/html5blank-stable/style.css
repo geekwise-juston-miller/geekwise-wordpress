@@ -120,78 +120,79 @@ body{
 
 
 #home_page_header{
-    margin: 0 auto;
-    padding: 0;
-    display: block;
-    width: 100%;
-    height: 8rem;
-    background-color: #fff;
-    text-align: center;
-    font-size: 1.6rem;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    height: 8rem !important;
+    background-color: #fff !important;
+    text-align: center !important;
+    font-size: 1.6rem !important;
 
 }
 
 #home_page_nav-1{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 12rem;
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
-    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 12rem !important;
+    display: flex !important;
+    display: -webkit-flex !important;
+    flex-flow: row wrap !important;
+    align-items: center !important;
     
 
 }
 
 #home_list-1{
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
-    width: 80%;
-    height: 13rem;
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    list-style: none !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    width: 80% !important;
+    height: 13rem !important;
+    display: flex !important;
+    display: -webkit-flex !important;
+    flex-flow: row wrap !important;
+    justify-content: center !important;
     
 }
 
 #home_list_item{
-    margin: 0;
-    padding: 0;
-    width: 7.4rem;
-    height: 6.4rem;
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 7.4rem !important;
+    height: 6.4rem !important;
+    display: flex !important;
+    display: -webkit-flex !important;
+    flex-flow: row nowrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 1.25rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
 }
 
 #home_list_item > span > a{
-    text-decoration: none;
-    color: #000;
+    text-decoration: none !important;
+    color: #000 !important;
+    height: 6.5rem !important;
+    width: 8.5rem !important;
 }
 #home_list_item_workshop{
-    height: 6.5rem;
-    width: 8.5rem;
+    
 }
 
 /* sign up nav box*/
 
 #home_list_item__signup{
-    background-color: #f9da0c;
-    width: 6.5rem;
+    background-color: #f9da0c !important;
+    width: 6.5rem !important;
     
 }
 
 #home_list_item__signup > a{
-    color: #7a1501;
-    font-weight: 500;
+    color: #7a1501 !important;
+    font-weight: 500 !important;
 }
 
 /* mouse over link */
@@ -316,6 +317,7 @@ h3{
     display: block;
     width: 100%;
     height: auto;
+    font-weight:bold;
     color: #ffffff;
     
 }

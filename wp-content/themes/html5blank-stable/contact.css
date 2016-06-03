@@ -125,7 +125,7 @@ nav > ul > li{
     text-decoration: none;
     background-color: #f9da0c;
     /*float: right;*/
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     
     
@@ -207,7 +207,15 @@ main{
     color: #000;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+}
+
+#contact-font{
+    margin-top: 5px;
+    font-family: "ciria";
+    color: #7a1501;
+    font-size: 1.6rem;
+    text-decoration: none;
 }
 
 @media only screen and (min-width:751px){

@@ -12,7 +12,9 @@
                     <span>2210 San Joaquin Street</span>
                     <span>Fresno, California 93721</span>
                     <p><a href="tel:559.472.8786">559.472.8786</a></p>
-                    <p><a href="mailto:tsolis@bitwiseindustries.com">tsolis@bitwiseindustries.com</a></p>
+                    <span>
+                    <p><a id="contact-font" href="mailto:tsolis@bitwiseindustries.com">tsolis@bitwiseindustries.com</a></p>
+                    </span>
             </div>  
          </div>
          

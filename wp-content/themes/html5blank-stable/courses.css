@@ -672,6 +672,7 @@ p{
     display: inline-block;
     position:relative;
     top:2rem;
+    font-weight: bold;
 }
 
 /* start media query for workshops page */

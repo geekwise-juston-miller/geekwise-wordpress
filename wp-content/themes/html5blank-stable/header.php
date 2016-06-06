@@ -7,6 +7,7 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link href="<?php echo get_template_directory_uri(); ?>/fonts.css" rel="stylesheet">
         <link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
@@ -58,7 +59,7 @@
                         </span>
                     </li>
                     
-                    <li id="home_list_item_workshop">
+                    <li id="home_list_item">
                         <span>
                             <a href="/index.php?page_id=10">Workshops</a>
                         </span>
@@ -70,9 +71,9 @@
                         </span>
                     </li>
                     
-                    <li id="home_list_item__signup">
+                    <li id="home_list_item">
                         <span>
-                            <a href="/index.php?page_id=18">Signup</a>
+                            <a href="/index.php?page_id=18" id="sign-up-home">Signup</a>
                         </span>
                     </li>
                     

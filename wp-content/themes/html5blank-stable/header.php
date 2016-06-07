@@ -10,7 +10,11 @@
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
+
+
+
 		
 
 		<?php wp_head(); ?>

@@ -210,14 +210,17 @@ main{
 
 .main_about_text{
     width: 100%;
-    background-color: #7a1501;
     height: auto;
+    background-color: #7a1501;
+    
     
 }
 
 .section_about_text{
-    width: 70%;
-    margin: auto;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
     clear: both;
     background-color: #7a1501;
     text-align: left;
@@ -226,7 +229,8 @@ main{
 }
 
 #about{
-    width: 46%;
+    width: 45%;
+    height: auto;
     float: left;
     color: #fff;
     padding-left: 35px;
@@ -236,30 +240,69 @@ main{
 
 }
 .signup_section_bottom_page{
-    width:100%;
-    height: 30px;
+    /*width:100%;*/
+    /*height: 30px;*/
+    /*text-transform: uppercase;*/
+    /*background-color: #f9da0c;*/
+    /*margin:0 auto;*/
+    /*padding-top: 15px;*/
+    /*text-align: center;*/
+    /*float: left;*/
+    /*font-weight: bold;*/
+    /*position: absolute;*/
+    width: 100%;
+    height: 40px;
     text-transform: uppercase;
     background-color: #f9da0c;
-    margin:0 auto;
-    padding-top: 15px;
+    margin: 0 auto;
+    padding-top: 20px;
     text-align: center;
     float: left;
     font-weight: bold;
+    margin-top: 70px;
+    
 }
 
-footer{
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 50px;
-    margin: 0 auto;
-    padding: 0;
-    background-color: yellow;
-    text-align: center;
-    font-size: 2rem;
-}
+/*footer{*/
+/*    display: block;*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*    margin: 0 auto;*/
+/*    padding: 0;*/
+/*    background-color: yellow;*/
+/*    text-align: center;*/
+/*    font-size: 2rem;*/
+/*}*/
 
 /*  hide the font awesome button  */
+
+/*@media only screen and (min-width:1266px){*/
+    
+/*    main{*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 578px;*/
+/*    margin: 0 auto;*/
+/*    padding: 0;*/
+    
+/*}*/
+    
+/*    #about{*/
+/*    width: 46%;*/
+/*    float: left;*/
+/*    color: #fff;*/
+/*    padding-left: 35px;*/
+/*    line-height: 2;*/
+/*    font-family:"lato",sans-serif;*/
+/*    font-size: 1rem;*/
+
+/*}*/
+    
+    
+/*}*/
+
+
 
 @media only screen and (min-width:870px){
     

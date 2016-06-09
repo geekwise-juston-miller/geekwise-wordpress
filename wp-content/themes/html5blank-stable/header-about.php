@@ -10,7 +10,7 @@
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
-        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href="<?php echo get_template_directory_uri(); ?>/fonts.css" rel="stylesheet">
         <link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
         <link href="<?php echo get_template_directory_uri(); ?>/about.css" rel="stylesheet">

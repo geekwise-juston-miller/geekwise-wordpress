@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="icon" type="image/png" href="http://i.imgur.com/CmBvoI4.png"/>
     <link href="<?php echo get_template_directory_uri(); ?>/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="//db.onlinewebfonts.com/c/e5f2f90ef20309de329a7d174c3d2245?family=Franchise" rel="stylesheet" type="text/css"/>
     <link href="<?php echo get_template_directory_uri(); ?>/signup.css" rel="stylesheet">
     

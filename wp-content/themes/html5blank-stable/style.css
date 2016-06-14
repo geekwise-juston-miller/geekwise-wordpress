@@ -167,7 +167,7 @@ body{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     text-transform: uppercase;
     font-family:'Lato', sans-serif;
@@ -179,8 +179,8 @@ body{
     color: #000;
     height: 5rem;
     width: auto;
-    width: 7.2rem;
-    height: 6rem;
+    /*width: 7.2rem;*/
+    /*height: 6rem;*/
     text-transform: initial;
 }
 

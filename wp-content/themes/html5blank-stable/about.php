@@ -22,8 +22,8 @@
                 <div class="about_what" id="about">
                    
 
-                    <h1><?php the_title(); ?><?php the_content(); ?></h1>
-                    <p class="about"><?php the_field('what'); ?></p>
+                    <h1><?php the_title(); ?></h1>
+                    <p class="about"><?php the_content(); ?></p>
                 
                  
                 </div>

@@ -98,9 +98,9 @@
             
              <h1>
                  Learn a real world
-                 <br>
+            <br>
                   technology skill. Fast.
-             </h1>
+            </h1>
              
          </div>
         

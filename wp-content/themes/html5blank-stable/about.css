@@ -200,7 +200,7 @@ color: #7a1501;
     font-family: "franchise";
     font-weight: bold;
     font-size:2rem;
-    line-height:1.5;
+    line-height:1.0;
 }
 
 main{
@@ -217,12 +217,12 @@ main{
     width: 100%;
     height: auto;
     background-color: #7a1501;
-    
+    margin: 3rem 0 0 auto;
     
 }
 
 .section_about_text{
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -234,14 +234,14 @@ main{
 }
 
 #about{
-    width: 45%;
+    width: 40%;
     height: auto;
     float: left;
     color: #fff;
-    padding-left: 35px;
+    padding-left: 30px;
     line-height: 2;
     font-family:"lato",sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 
 }
 

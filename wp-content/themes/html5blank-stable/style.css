@@ -124,10 +124,10 @@ body{
     padding: 0;
     display: block;
     width: 100%;
-    height: 8rem;
+    height: 6rem;
     background-color: #fff ;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 
 }
 
@@ -148,8 +148,8 @@ body{
     list-style: none;
     margin: 0 auto;
     padding: 0;
-    width: 80%;
-    height: auto;
+    width: 50%;
+    height:100%;
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
@@ -158,20 +158,19 @@ body{
 }
 
 #home_list_item{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 7.2rem;
+    width: 6.2rem;
     height: 6rem;
     display: flex;
     display: -webkit-flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 600;
     font-family:'Lato', sans-serif;
-    
+    background-color: #fff;
 }
 
 #home_list_item > span > a{
@@ -179,9 +178,7 @@ body{
     color: #000;
     height: 5rem;
     width: auto;
-    /*width: 7.2rem;*/
-    /*height: 6rem;*/
-    text-transform: initial;
+    text-transform: uppercase;
 }
 
 #home_list_item:nth-of-type(3){
@@ -246,35 +243,35 @@ main{
     padding: 0;
     width: 100%;
     height:100%;
-    margin-bottom: .5rem;
+    margin-bottom: .4rem;
 }
 
 #mid_text{
     margin: 0 auto;
-    padding-top: 3rem;
+    padding-top: 2rem;
     width: 100%;
-    height: 160px;
+    height: auto;
     background-color: #7a1501;
     color: #ffffff;
 }
 
 #mid_text > h2{
     font-family: "franchise";
-    font-size: 3.4rem;
+    font-size: 2.6rem;
     text-align: center;
-    margin: 0px auto 0px auto;
-    padding:0;
+    margin: 10px auto 0px auto;
     color: white;
     text-transform: uppercase;
-
+    font-weight: 600;
+    letter-spacing: -1px;
 }
 
 h3{
    font-family: "ciria";
-    font-size: 4.5rem;
+    font-size: 4.4rem;
     text-align: center;
     margin: 0 auto;
-    padding:0;
+    padding:0 0 2.5rem 0;
     color: white;
     text-transform: lowercase;
     font-weight: 900;
@@ -305,7 +302,7 @@ h3{
     width: 100%;
     height: 15rem;
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 #bottomlogos > li{

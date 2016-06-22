@@ -13,7 +13,7 @@
                 
             <div id="mid_text">
                    
-                    <h2>FAST&#46; NO FLUFF&#46;</h2>
+                    <h2>Fast. No Fluff.</h2>
                     
                     <h3>we teach technology skills that you can use to make money</h3>
                     
